@@ -208,11 +208,9 @@ namespace PharmAssist.Repository.Identity.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CurrentSymptoms")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("DisplayName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
@@ -223,7 +221,6 @@ namespace PharmAssist.Repository.Identity.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("HasChronicConditions")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
@@ -250,14 +247,12 @@ namespace PharmAssist.Repository.Identity.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("PromptReason")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TakesMedicationsOrTreatments")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("TwoFactorEnabled")

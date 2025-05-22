@@ -138,6 +138,27 @@ namespace PharmAssist.Controllers
 		}
 
 		[Authorize]
+		[HttpPost("EditProfile")]
+		public async Task<IActionResult> EditProfile([FromBody] EditProfileDto dto)
+		{
+			var user = await _userManager.GetUserAsync(User);
+			if (user == null) return Unauthorized(new ApiResponse(401));
+
+			user.DisplayName = dto.DisplayName;
+			user.PhoneNumber = dto.PhoneNumber;
+
+			var result = await _userManager.UpdateAsync(user);
+			if (!result.Succeeded)
+				return BadRequest(new { success = false, errors = result.Errors.Select(e => e.Description) });
+
+			return Ok(new EditProfileDto()
+			{
+				DisplayName = user.DisplayName,
+				PhoneNumber = dto.PhoneNumber,
+			});
+		}
+
+		[Authorize]
 		[HttpGet("GetCurrentUser")]
 		public async Task<ActionResult<UserDTO>> GetCurrentUser()
 		{

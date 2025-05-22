@@ -3,28 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9F2D037-8557-49ED-A5D5-19456EB0BB42}|PharmAssist.Service\\PharmAssist.Service.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist.service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9F2D037-8557-49ED-A5D5-19456EB0BB42}|PharmAssist.Service\\PharmAssist.Service.csproj|solutionrelative:pharmassist.service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E50F272E-47AD-41D2-9C6E-80E56777C4D3}|PharmAssist.Repository\\PharmAssist.Repository.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist.repository\\data\\storecontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E50F272E-47AD-41D2-9C6E-80E56777C4D3}|PharmAssist.Repository\\PharmAssist.Repository.csproj|solutionrelative:pharmassist.repository\\data\\storecontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E50F272E-47AD-41D2-9C6E-80E56777C4D3}|PharmAssist.Repository\\PharmAssist.Repository.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist.repository\\data\\dataseed\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E50F272E-47AD-41D2-9C6E-80E56777C4D3}|PharmAssist.Repository\\PharmAssist.Repository.csproj|solutionrelative:pharmassist.repository\\data\\dataseed\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E50F272E-47AD-41D2-9C6E-80E56777C4D3}|PharmAssist.Repository\\PharmAssist.Repository.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist.repository\\data\\migrations\\20250518172104_updatingproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E50F272E-47AD-41D2-9C6E-80E56777C4D3}|PharmAssist.Repository\\PharmAssist.Repository.csproj|solutionrelative:pharmassist.repository\\data\\migrations\\20250518172104_updatingproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E50F272E-47AD-41D2-9C6E-80E56777C4D3}|PharmAssist.Repository\\PharmAssist.Repository.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist.repository\\identity\\appidentitydbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E50F272E-47AD-41D2-9C6E-80E56777C4D3}|PharmAssist.Repository\\PharmAssist.Repository.csproj|solutionrelative:pharmassist.repository\\identity\\appidentitydbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist\\extensions\\identitysevicesextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\extensions\\identitysevicesextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E50F272E-47AD-41D2-9C6E-80E56777C4D3}|PharmAssist.Repository\\PharmAssist.Repository.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist.repository\\data\\configurations\\productconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E50F272E-47AD-41D2-9C6E-80E56777C4D3}|PharmAssist.Repository\\PharmAssist.Repository.csproj|solutionrelative:pharmassist.repository\\data\\configurations\\productconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist.core\\specifications\\productspecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|solutionrelative:pharmassist.core\\specifications\\productspecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist.core\\specifications\\productspecparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|solutionrelative:pharmassist.core\\specifications\\productspecparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist.core\\specifications\\basespecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|solutionrelative:pharmassist.core\\specifications\\basespecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist.core\\specifications\\ispecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|solutionrelative:pharmassist.core\\specifications\\ispecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist.core\\specifications\\productwithfilterationforcountasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|solutionrelative:pharmassist.core\\specifications\\productwithfilterationforcountasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist.core\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|solutionrelative:pharmassist.core\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist\\helpers\\cachedattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\helpers\\cachedattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,8 +77,30 @@
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250518172104_UpdatingProducts.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Repository\\Data\\Migrations\\20250518172104_UpdatingProducts.cs",
+              "RelativeDocumentMoniker": "PharmAssist.Repository\\Data\\Migrations\\20250518172104_UpdatingProducts.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Repository\\Data\\Migrations\\20250518172104_UpdatingProducts.cs",
+              "RelativeToolTip": "PharmAssist.Repository\\Data\\Migrations\\20250518172104_UpdatingProducts.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAowBQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T23:14:29.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "products.json",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Repository\\Data\\DataSeed\\products.json",
+              "RelativeDocumentMoniker": "PharmAssist.Repository\\Data\\DataSeed\\products.json",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Repository\\Data\\DataSeed\\products.json",
+              "RelativeToolTip": "PharmAssist.Repository\\Data\\DataSeed\\products.json",
+              "ViewState": "AQIAAGkAAAAAAAAAAADwv4MAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-21T22:53:39.898Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -60,71 +110,136 @@
               "RelativeDocumentMoniker": "PharmAssist\\Program.cs",
               "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\Program.cs",
               "RelativeToolTip": "PharmAssist\\Program.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAQwG8AAAA/AAAA",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAQwFcAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T14:09:27.075Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "PharmAssist\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\Properties\\launchSettings.json",
-              "RelativeToolTip": "PharmAssist\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-30T13:56:48.828Z",
+              "WhenOpened": "2025-05-21T23:03:56.888Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "IdentitySevicesExtension.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\Extensions\\IdentitySevicesExtension.cs",
-              "RelativeDocumentMoniker": "PharmAssist\\Extensions\\IdentitySevicesExtension.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\Extensions\\IdentitySevicesExtension.cs",
-              "RelativeToolTip": "PharmAssist\\Extensions\\IdentitySevicesExtension.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAADwvy0AAAAAAAAA",
+              "Title": "ProductConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Repository\\Data\\Configurations\\ProductConfig.cs",
+              "RelativeDocumentMoniker": "PharmAssist.Repository\\Data\\Configurations\\ProductConfig.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Repository\\Data\\Configurations\\ProductConfig.cs",
+              "RelativeToolTip": "PharmAssist.Repository\\Data\\Configurations\\ProductConfig.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwBMAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T18:26:00.262Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AccountsController.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\Controllers\\AccountsController.cs",
-              "RelativeDocumentMoniker": "PharmAssist\\Controllers\\AccountsController.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\Controllers\\AccountsController.cs",
-              "RelativeToolTip": "PharmAssist\\Controllers\\AccountsController.cs",
-              "ViewState": "AQIAAJQAAAAAAAAAAAAAAKcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T18:15:19.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Service\\TokenService.cs",
-              "RelativeDocumentMoniker": "PharmAssist.Service\\TokenService.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Service\\TokenService.cs*",
-              "RelativeToolTip": "PharmAssist.Service\\TokenService.cs*",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAowBsAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T20:02:47.404Z",
+              "WhenOpened": "2025-05-21T23:02:54.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\appsettings.json",
-              "RelativeDocumentMoniker": "PharmAssist\\appsettings.json",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\appsettings.json",
-              "RelativeToolTip": "PharmAssist\\appsettings.json",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-26T20:02:30.945Z"
+              "DocumentIndex": 0,
+              "Title": "StoreContextSeed.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Repository\\Data\\StoreContextSeed.cs",
+              "RelativeDocumentMoniker": "PharmAssist.Repository\\Data\\StoreContextSeed.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Repository\\Data\\StoreContextSeed.cs",
+              "RelativeToolTip": "PharmAssist.Repository\\Data\\StoreContextSeed.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T23:02:11.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppIdentityDbContextSeed.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Repository\\Identity\\AppIdentityDbContextSeed.cs",
+              "RelativeDocumentMoniker": "PharmAssist.Repository\\Identity\\AppIdentityDbContextSeed.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Repository\\Identity\\AppIdentityDbContextSeed.cs",
+              "RelativeToolTip": "PharmAssist.Repository\\Identity\\AppIdentityDbContextSeed.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T23:03:49.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductSpecParam.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Core\\Specifications\\ProductSpecParam.cs",
+              "RelativeDocumentMoniker": "PharmAssist.Core\\Specifications\\ProductSpecParam.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Core\\Specifications\\ProductSpecParam.cs",
+              "RelativeToolTip": "PharmAssist.Core\\Specifications\\ProductSpecParam.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:05:25.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductWithFilterationForCountAsync.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Core\\Specifications\\ProductWithFilterationForCountAsync.cs",
+              "RelativeDocumentMoniker": "PharmAssist.Core\\Specifications\\ProductWithFilterationForCountAsync.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Core\\Specifications\\ProductWithFilterationForCountAsync.cs",
+              "RelativeToolTip": "PharmAssist.Core\\Specifications\\ProductWithFilterationForCountAsync.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:18:59.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BaseSpecifications.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Core\\Specifications\\BaseSpecifications.cs",
+              "RelativeDocumentMoniker": "PharmAssist.Core\\Specifications\\BaseSpecifications.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Core\\Specifications\\BaseSpecifications.cs",
+              "RelativeToolTip": "PharmAssist.Core\\Specifications\\BaseSpecifications.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:19:18.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ISpecifications.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Core\\Specifications\\ISpecifications.cs",
+              "RelativeDocumentMoniker": "PharmAssist.Core\\Specifications\\ISpecifications.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Core\\Specifications\\ISpecifications.cs",
+              "RelativeToolTip": "PharmAssist.Core\\Specifications\\ISpecifications.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:19:04.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductSpecs.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Core\\Specifications\\ProductSpecs.cs",
+              "RelativeDocumentMoniker": "PharmAssist.Core\\Specifications\\ProductSpecs.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Core\\Specifications\\ProductSpecs.cs",
+              "RelativeToolTip": "PharmAssist.Core\\Specifications\\ProductSpecs.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAmwBgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:06:33.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Core\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "PharmAssist.Core\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Core\\IUnitOfWork.cs",
+              "RelativeToolTip": "PharmAssist.Core\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:19:27.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CachedAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\Helpers\\CachedAttribute.cs",
+              "RelativeDocumentMoniker": "PharmAssist\\Helpers\\CachedAttribute.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\Helpers\\CachedAttribute.cs",
+              "RelativeToolTip": "PharmAssist\\Helpers\\CachedAttribute.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAiwC8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:06:09.387Z"
             }
           ]
         }

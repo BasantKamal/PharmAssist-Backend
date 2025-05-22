@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\wwwroot\\Images\\Products\\hat-core1.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\hat-core1.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\wwwroot\\Images\\Products\\hat-react1.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\hat-react1.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\wwwroot\\Images\\Products\\hat-react2.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\hat-react2.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\wwwroot\\Images\\Products\\sb-ang1.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\sb-ang1.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\wwwroot\\Images\\Products\\sb-ang2.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\sb-ang2.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\wwwroot\\Images\\Products\\sb-core1.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\sb-core1.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\wwwroot\\Images\\Products\\sb-core2.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\sb-core2.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\wwwroot\\Images\\Products\\sb-react1.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\sb-react1.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\wwwroot\\Images\\Products\\sb-ts1.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\sb-ts1.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PharmAssist.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PharmAssist.props",
+      "PackagePath": "build\\PharmAssist.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PharmAssist.props",
+      "PackagePath": "buildMultiTargeting\\PharmAssist.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PharmAssist.props",
+      "PackagePath": "buildTransitive\\PharmAssist.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

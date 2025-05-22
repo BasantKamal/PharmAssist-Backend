@@ -8,8 +8,10 @@ using PharmAssist.Core.Entities.Identity;
 using PharmAssist.Core.Entities.OTP;
 using PharmAssist.Extensions;
 using PharmAssist.MiddleWares;
+using PharmAssist.Repository.Data;
 using PharmAssist.Repository.Identity;
 using PharmAssist.Service;
+using StackExchange.Redis;
 
 namespace PharmAssist
 {
@@ -27,21 +29,21 @@ namespace PharmAssist
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            //builder.Services.AddDbContext<StoreContext>(options =>
-            //{
-            //	options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-            //});
+            builder.Services.AddDbContext<StoreContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+            });
 
             builder.Services.AddDbContext<AppIdentityDbContext>(Options =>
             {
                 Options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection"));
             });
 
-            //builder.Services.AddSingleton<IConnectionMultiplexer>(Options =>
-            //{
-            //	var connection = builder.Configuration.GetConnectionString("RedisConnection");
-            //	return ConnectionMultiplexer.Connect(connection);
-            //});
+            builder.Services.AddSingleton<IConnectionMultiplexer>(Options =>
+            {
+                var connection = builder.Configuration.GetConnectionString("RedisConnection");
+                return ConnectionMultiplexer.Connect(connection);
+            });
 
             builder.Services.AddScoped<EmailService>();
             builder.Services.AddScoped<OtpService>();
@@ -82,15 +84,15 @@ namespace PharmAssist
 
             try
             {
-                //var dbContext = Services.GetRequiredService<StoreContext>(); 
-                //await dbContext.Database.MigrateAsync();  
+                var dbContext = Services.GetRequiredService<StoreContext>();
+                await dbContext.Database.MigrateAsync();
 
                 var identityDbContext = Services.GetRequiredService<AppIdentityDbContext>();
                 await identityDbContext.Database.MigrateAsync();
                 var userManager = Services.GetRequiredService<UserManager<AppUser>>();
                 var roleManager = Services.GetRequiredService<RoleManager<IdentityRole>>();
                 await AppIdentityDbContextSeed.SeedUserAsync(userManager, roleManager);
-                //await StoreContextSeed.SeedAsync(dbContext);
+                await StoreContextSeed.SeedAsync(dbContext);
             }
             catch (Exception ex)
             {

@@ -48,6 +48,8 @@ C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\bin\Debug\net8.0\Micros
 C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\bin\Debug\net8.0\MimeKit.dll
 C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\bin\Debug\net8.0\StackExchange.Redis.dll
 C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -161,3 +163,4 @@ C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\obj\Debug\net8.0\refint
 C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\obj\Debug\net8.0\PharmAssist.pdb
 C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\obj\Debug\net8.0\PharmAssist.genruntimeconfig.cache
 C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\obj\Debug\net8.0\ref\PharmAssist.dll
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\bin\Debug\net8.0\PharmAssist.staticwebassets.runtime.json

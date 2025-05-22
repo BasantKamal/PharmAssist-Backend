@@ -19,7 +19,6 @@ namespace PharmAssist.Extensions
 				    .AddEntityFrameworkStores<AppIdentityDbContext>()
 					.AddDefaultTokenProviders();
 
-			//generate token by scheme     //UserManager / SigninManager / RoleManager
 			services.AddAuthentication(options =>
 			{
 				options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;

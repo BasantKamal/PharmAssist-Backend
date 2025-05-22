@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using PharmAssist.Core;
 using PharmAssist.Core.Services;
 using PharmAssist.Errors;
 using PharmAssist.Helpers;
+using PharmAssist.Repository;
 using PharmAssist.Service;
 
 
@@ -12,8 +14,8 @@ namespace PharmAssist.Extensions
 	{
 		public static IServiceCollection AddApplicationServices(this IServiceCollection Services) 
 		{
-			//Services.AddSingleton<IResponseCacheService, ResponseCacheService>();
-			//Services.AddScoped<IUnitOfWork, UnitOfWork>();
+			Services.AddSingleton<IResponseCacheService, ResponseCacheService>();
+			Services.AddScoped<IUnitOfWork, UnitOfWork>();
 			//Services.AddScoped(typeof(IOrderService),typeof(OrderService));
 			//Services.AddScoped(typeof(IBasketRepository), typeof(BasketRepository));
 			Services.AddScoped<IEmailService, EmailService>();
