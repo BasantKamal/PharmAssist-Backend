@@ -61,10 +61,46 @@ public class OtpController : ControllerBase
 		}
 
 	}
+
+	[HttpPost("Resend")]
+	public async Task<IActionResult> ResendOtp([FromBody] EmailRequest request)
+	{
+		if (string.IsNullOrEmpty(request.Email))
+		{
+			return BadRequest(new { success = false, message = "Email is required." });
+		}
+
+		var user = await _userManager.FindByEmailAsync(request.Email);
+		if (user == null)
+		{
+			return BadRequest(new { success = false, message = "User not found." });
+		}
+
+		if (user.EmailConfirmed)
+		{
+			return BadRequest(new { success = false, message = "Email is already confirmed." });
+		}
+
+		try
+		{
+			await _otpService.SendOtpAsync(request.Email); 
+			return Ok(new { success = true, message = "OTP resent successfully. Please check your email." });
+		}
+		catch (Exception ex)
+		{
+			return StatusCode(StatusCodes.Status500InternalServerError, new { success = false, 
+				message = "An error occurred while resending the OTP." });
+		}
+	}
+
 }
 
 public class OtpVerifyRequest
 {
     public string Email { get; set; }
     public string Code { get; set; }
+}
+public class EmailRequest
+{
+	public string Email { get; set; }
 }
