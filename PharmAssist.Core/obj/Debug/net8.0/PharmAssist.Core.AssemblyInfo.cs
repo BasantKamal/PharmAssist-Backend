@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PharmAssist.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3aa3327280723980da7eb9f089c5d8cb81f3682e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+654c5cf9bdda9d37b2e481bf0a121995905c08ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("PharmAssist.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PharmAssist.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

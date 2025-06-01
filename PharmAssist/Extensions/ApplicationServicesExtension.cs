@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using PharmAssist.Core;
+using PharmAssist.Core.Repositories;
 using PharmAssist.Core.Services;
 using PharmAssist.Errors;
 using PharmAssist.Helpers;
@@ -16,8 +17,8 @@ namespace PharmAssist.Extensions
 		{
 			Services.AddSingleton<IResponseCacheService, ResponseCacheService>();
 			Services.AddScoped<IUnitOfWork, UnitOfWork>();
-			//Services.AddScoped(typeof(IOrderService),typeof(OrderService));
-			//Services.AddScoped(typeof(IBasketRepository), typeof(BasketRepository));
+			Services.AddScoped(typeof(IOrderService), typeof(OrderService));
+			Services.AddScoped(typeof(IBasketRepository), typeof(BasketRepository));
 			Services.AddScoped<IEmailService, EmailService>();
 			Services.Configure<IdentityOptions>(options => options.SignIn.RequireConfirmedEmail = true);
 

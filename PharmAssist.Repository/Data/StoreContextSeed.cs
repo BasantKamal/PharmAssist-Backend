@@ -1,5 +1,6 @@
 ﻿
 using PharmAssist.Core.Entities;
+using PharmAssist.Core.Entities.Order_Aggregation;
 using System.Text.Json;
 
 
@@ -12,7 +13,6 @@ namespace PharmAssist.Repository.Data
 
 			if(!dbContext.Products.Any())
 			{
-				//Seeding product
 				var productsData = File.ReadAllText("../PharmAssist.Repository/Data/DataSeed/products.json");
 				var products = JsonSerializer.Deserialize<List<Product>>(productsData);
 				if (products?.Count > 0)
@@ -22,17 +22,16 @@ namespace PharmAssist.Repository.Data
 				}
 			}
 
-			//if (!dbContext.DeliveryMethods.Any())
-			//{
-			//	//Seeding product
-			//	var DeliveryMethodsData = File.ReadAllText("../PharmAssist.Repository/Data/DataSeed/delivery.json");
-			//	var DeliveryMethods = JsonSerializer.Deserialize<List<DeliveryMethod>>(DeliveryMethodsData);
-			//	if (DeliveryMethods?.Count > 0)
-			//	{
-			//		foreach (var DeliveryMethod in DeliveryMethods)
-			//			await dbContext.Set<DeliveryMethod>().AddAsync(DeliveryMethod);
-			//	}
-			//}
+			if (!dbContext.DeliveryMethod.Any())
+			{
+				var DeliveryMethodsData = File.ReadAllText("../PharmAssist.Repository/Data/DataSeed/delivery.json");
+				var DeliveryMethods = JsonSerializer.Deserialize<List<DeliveryMethod>>(DeliveryMethodsData);
+				if (DeliveryMethods?.Count > 0)
+				{
+					foreach (var DeliveryMethod in DeliveryMethods)
+						await dbContext.Set<DeliveryMethod>().AddAsync(DeliveryMethod);
+				}
+			}
 
 			await dbContext.SaveChangesAsync();
 

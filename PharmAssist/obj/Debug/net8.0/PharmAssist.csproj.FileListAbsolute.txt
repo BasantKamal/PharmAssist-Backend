@@ -1,5 +1,6 @@
 C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\bin\Debug\net8.0\appsettings.json
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\bin\Debug\net8.0\PharmAssist.staticwebassets.runtime.json
 C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\bin\Debug\net8.0\PharmAssist.exe
 C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\bin\Debug\net8.0\PharmAssist.deps.json
 C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\bin\Debug\net8.0\PharmAssist.runtimeconfig.json
@@ -163,4 +164,3 @@ C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\obj\Debug\net8.0\refint
 C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\obj\Debug\net8.0\PharmAssist.pdb
 C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\obj\Debug\net8.0\PharmAssist.genruntimeconfig.cache
 C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\obj\Debug\net8.0\ref\PharmAssist.dll
-C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist\bin\Debug\net8.0\PharmAssist.staticwebassets.runtime.json
