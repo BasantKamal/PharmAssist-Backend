@@ -19,6 +19,8 @@ namespace PharmAssist.Repository.Data.Configurations
 				.IsRequired();
 			builder.Property(p => p.ActiveIngredient)
 				    .IsRequired();
+			builder.Property(p => p.Conflicts)
+				    .HasMaxLength(500);
 
 			builder.Property(p => p.Price).HasColumnType("decimal(18,2)");
 		}

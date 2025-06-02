@@ -1,132 +1,861 @@
 [
   {
-    "Name": "Double Caramel Frappuccino",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 200,
-    "PictureUrl": "images/products/sb-ang1.png",
-    "ActiveIngredient": "Acetaminophen"
-
+    "Name": "Panadol Extra",
+    "Description": "Relief of mild to moderate pain including headache, migraine, tension headache, and period pain.",
+    "Price": 20.5,
+    "PictureUrl": "images/products/panadol-extra.png",
+    "ActiveIngredient": "Paracetamol 500mg + Caffeine 65mg",
+    "Conflicts": "Liver disease, Alcoholism, Taking warfarin or other blood thinners, Kidney problems"
   },
   {
-    "Name": "White Chocolate Mocha Frappuccino",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 150,
-    "PictureUrl": "images/products/sb-ang2.png",
-    "ActiveIngredient": "Ibuprofen"
+    "Name": "Brufen",
+    "Description": "Used for rheumatic or muscular pain, pain of non-serious arthritis, backache, and period pain.",
+    "Price": 32.75,
+    "PictureUrl": "images/products/brufen.png",
+    "ActiveIngredient": "Ibuprofen 400mg",
+    "Conflicts": "Asthma, Heart failure, High blood pressure, Stomach ulcers, Pregnancy, Taking aspirin or blood thinners"
   },
   {
-    "Name": "Iced Cafe Latte",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "images/products/sb-core1.png",
-    "ActiveIngredient": "Amoxicillin"
-
+    "Name": "Amrizole",
+    "Description": "Treatment of infections caused by microorganisms susceptible to metronidazole.",
+    "Price": 25.0,
+    "PictureUrl": "images/products/amrizole.png",
+    "ActiveIngredient": "Metronidazole 500mg",
+    "Conflicts": "Pregnancy, Liver disease, Taking blood thinners, Alcoholism, Nervous system disorders"
   },
   {
-    "Name": "White Chocolate Mocha",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 300,
-    "PictureUrl": "images/products/sb-core2.png",
-    "ActiveIngredient": "Loratadine"
+    "Name": "Antinal",
+    "Description": "Used to treat acute diarrhea, traveler's diarrhea, and chronic diarrhea associated with irritable bowel syndrome.",
+    "Price": 40.25,
+    "PictureUrl": "images/products/antinal.png",
+    "ActiveIngredient": "Nifuroxazide 200mg",
+    "Conflicts": "Kidney disease, Pregnancy, Breastfeeding, G6PD deficiency"
   },
   {
-    "Name": "Iced Caramel Macchiato",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 250,
-    "PictureUrl": "images/products/sb-react1.png",
-    "ActiveIngredient": "Omeprazole"
-
+    "Name": "Congestal",
+    "Description": "Relief of nasal and sinus congestion associated with colds, flu, and sinusitis.",
+    "Price": 22.5,
+    "PictureUrl": "images/products/congestal.png",
+    "ActiveIngredient": "Pseudoephedrine 60mg + Triprolidine 2.5mg",
+    "Conflicts": "High blood pressure, Heart disease, Diabetes, Glaucoma, Thyroid problems, Prostate problems, Taking MAO inhibitors"
   },
   {
-    "Name": "Hot Caramel Macchiato",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 120,
-    "PictureUrl": "images/products/sb-ts1.png",
-    "ActiveIngredient": "Diphenhydramine"
+    "Name": "Comtrex",
+    "Description": "Relief of symptoms associated with common cold and flu, including headache, fever, body aches, and nasal congestion.",
+    "Price": 35.0,
+    "PictureUrl": "images/products/comtrex.png",
+    "ActiveIngredient": "Paracetamol 500mg + Pseudoephedrine 30mg + Dextromethorphan 15mg",
+    "Conflicts": "Liver disease, High blood pressure, Diabetes, Glaucoma, Thyroid problems, Taking MAO inhibitors or antidepressants"
   },
   {
-    "Name": "Iced Matcha Latte",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 10,
-    "PictureUrl": "images/products/hat-core1.png",
-    "ActiveIngredient": "Simvastatin"
+    "Name": "Kapect",
+    "Description": "Used to treat diarrhea and control bowel movements in certain intestinal disorders.",
+    "Price": 18.5,
+    "PictureUrl": "images/products/kapect.png",
+    "ActiveIngredient": "Kaolin 750mg + Pectin 35mg",
+    "Conflicts": "Intestinal obstruction, Severe abdominal pain, Dysentery, Taking antibiotics"
   },
   {
-    "Name": "Honey Cake",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 8,
-    "PictureUrl": "images/products/hat-react1.png",
-    "ActiveIngredient": "Metformin"
+    "Name": "Flagyl",
+    "Description": "Treatment of infections caused by bacteria or parasites affecting the stomach, intestines, skin, and other parts of the body.",
+    "Price": 27.75,
+    "PictureUrl": "images/products/flagyl.png",
+    "ActiveIngredient": "Metronidazole 500mg",
+    "Conflicts": "Pregnancy, Liver disease, Blood disorders, Nervous system disorders, Alcoholism"
   },
   {
-    "Name": "Blueberry Cheesecake",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 15,
-    "PictureUrl": "images/products/hat-react2.png",
-    "ActiveIngredient": "Albuterol"
+    "Name": "Epico",
+    "Description": "Used to relieve symptoms of allergies, including runny/stuffy nose, sneezing, and eye redness/itching/watering.",
+    "Price": 45.0,
+    "PictureUrl": "images/products/epico.png",
+    "ActiveIngredient": "Desloratadine 5mg",
+    "Conflicts": "Liver disease, Kidney disease, Pregnancy, Taking erythromycin or ketoconazole"
   },
   {
-    "Name": "Glazed Donuts",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 18,
-    "PictureUrl": "images/products/glove-code1.png",
-    "ActiveIngredient": "Sertraline"
+    "Name": "Ezz 3",
+    "Description": "Used to treat fungal infections of the skin, hair, and nails.",
+    "Price": 30.25,
+    "PictureUrl": "images/products/ezz3.png",
+    "ActiveIngredient": "Fluconazole 150mg",
+    "Conflicts": "Liver disease, Kidney disease, Heart rhythm problems, Taking cisapride, terfenadine, or astemizole"
   },
   {
-    "Name": "Greek Salad",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 15,
-    "PictureUrl": "images/products/glove-code2.png",
-    "ActiveIngredient": "Ranitidine"
+    "Name": "Cataflam",
+    "Description": "Used to treat pain and inflammation in conditions such as rheumatoid arthritis, osteoarthritis, and menstrual cramps.",
+    "Price": 45.75,
+    "PictureUrl": "images/products/cataflam.png",
+    "ActiveIngredient": "Diclofenac Potassium 50mg",
+    "Conflicts": "Stomach ulcers, Asthma, Heart failure, High blood pressure, Kidney disease, Pregnancy, Taking blood thinners"
   },
   {
-    "Name": "Purple React Gloves",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
-    "Price": 16,
-    "PictureUrl": "images/products/glove-react1.png",
-    "ActiveIngredient": "Montelukast"
-
+    "Name": "Voltaren",
+    "Description": "Used to relieve pain and inflammation in various conditions including arthritis, gout, muscle aches, and menstrual cramps.",
+    "Price": 50.25,
+    "PictureUrl": "images/products/voltaren.png",
+    "ActiveIngredient": "Diclofenac Sodium 50mg",
+    "Conflicts": "Stomach ulcers, Asthma, Heart failure, High blood pressure, Kidney disease, Pregnancy, Taking blood thinners"
   },
   {
-    "Name": "Green React Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 14,
-    "PictureUrl": "images/products/glove-react2.png",
-    "ActiveIngredient": "Prednisone"
+    "Name": "Augmentin",
+    "Description": "Used to treat various bacterial infections such as sinusitis, pneumonia, ear infections, and urinary tract infections.",
+    "Price": 85.0,
+    "PictureUrl": "images/products/augmentin.png",
+    "ActiveIngredient": "Amoxicillin 875mg + Clavulanic Acid 125mg",
+    "Conflicts": "Penicillin allergy, Liver disease, Kidney disease, Mononucleosis, Taking blood thinners or allopurinol"
   },
   {
-    "Name": "Redis Red Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 250,
-    "PictureUrl": "images/products/boot-redis1.png",
-    "ActiveIngredient": "Clopidogrel"
+    "Name": "Zentacal",
+    "Description": "Used as an antacid to relieve heartburn, acid indigestion, and stomach upset.",
+    "Price": 15.5,
+    "PictureUrl": "images/products/zentacal.png",
+    "ActiveIngredient": "Calcium Carbonate 500mg",
+    "Conflicts": "Kidney stones, High calcium levels, Taking tetracycline antibiotics, Heart problems"
   },
   {
-    "Name": "Core Red Boots",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 189.99,
-    "PictureUrl": "images/products/boot-core2.png",
-    "ActiveIngredient": "Dextromethorphan"
+    "Name": "Zyrtec",
+    "Description": "Used to relieve symptoms of seasonal allergies, such as runny nose, sneezing, itching, watery eyes, and throat irritation.",
+    "Price": 55.25,
+    "PictureUrl": "images/products/zyrtec.png",
+    "ActiveIngredient": "Cetirizine 10mg",
+    "Conflicts": "Kidney disease, Liver disease, Pregnancy, Taking medications that cause drowsiness"
   },
   {
-    "Name": "Core Purple Boots",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 199.99,
-    "PictureUrl": "images/products/boot-core1.png",
-    "ActiveIngredient": "Cetirizine"
+    "Name": "Histazine",
+    "Description": "Used to treat allergy symptoms such as itching, runny nose, watery eyes, and hives.",
+    "Price": 18.75,
+    "PictureUrl": "images/products/histazine.png",
+    "ActiveIngredient": "Cetirizine 10mg",
+    "Conflicts": "Kidney disease, Liver disease, Pregnancy, Taking medications that cause drowsiness"
   },
   {
-    "Name": "Angular Purple Boots",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 150,
-    "PictureUrl": "images/products/boot-ang2.png",
-    "ActiveIngredient": "Levothyroxine"
+    "Name": "Cipro",
+    "Description": "Used to treat bacterial infections of the skin, lungs, airways, bones, joints, and urinary tract.",
+    "Price": 65.0,
+    "PictureUrl": "images/products/cipro.png",
+    "ActiveIngredient": "Ciprofloxacin 500mg",
+    "Conflicts": "Tendon problems, Myasthenia gravis, Heart rhythm disorders, Seizures, Taking theophylline, antidiabetics, or NSAIDs"
   },
   {
-    "Name": "Angular Blue Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "images/products/boot-ang1.png",
-    "ActiveIngredient": "Hydrochlorothiazide"
+    "Name": "Alphintern",
+    "Description": "Used to reduce swelling and inflammation in conditions such as sprains, strains, and bruises.",
+    "Price": 28.5,
+    "PictureUrl": "images/products/alphintern.png",
+    "ActiveIngredient": "Trypsin + Chymotrypsin",
+    "Conflicts": "Bleeding disorders, Taking blood thinners, Severe liver disease, Recent surgery"
+  },
+  {
+    "Name": "Betadine",
+    "Description": "Antiseptic solution used to prevent infection in minor cuts, scrapes, and burns.",
+    "Price": 35.75,
+    "PictureUrl": "images/products/betadine.png",
+    "ActiveIngredient": "Povidone-Iodine 10%",
+    "Conflicts": "Iodine allergy, Thyroid disorders, Kidney disease, Pregnancy, Lithium treatment"
+  },
+  {
+    "Name": "Concor",
+    "Description": "Used to treat high blood pressure, angina, and heart failure.",
+    "Price": 75.25,
+    "PictureUrl": "images/products/concor.png",
+    "ActiveIngredient": "Bisoprolol 5mg",
+    "Conflicts": "Asthma, COPD, Heart block, Low blood pressure, Diabetes, Thyroid disorders, Pheochromocytoma"
+  },
+  {
+    "Name": "Moxipen",
+    "Description": "Used to treat a wide variety of bacterial infections including respiratory tract, urinary tract, and skin infections.",
+    "Price": 32.5,
+    "PictureUrl": "images/products/moxipen.png",
+    "ActiveIngredient": "Amoxicillin 500mg",
+    "Conflicts": "Penicillin allergy, Mononucleosis, Kidney disease, Taking allopurinol"
+  },
+  {
+    "Name": "Librax",
+    "Description": "Used to treat stomach and intestinal problems such as irritable bowel syndrome and peptic ulcer disease.",
+    "Price": 45.25,
+    "PictureUrl": "images/products/librax.png",
+    "ActiveIngredient": "Chlordiazepoxide 5mg + Clidinium 2.5mg",
+    "Conflicts": "Glaucoma, Myasthenia gravis, Severe liver disease, Prostatic hypertrophy, Elderly or debilitated patients"
+  },
+  {
+    "Name": "Keflex",
+    "Description": "Used to treat a range of bacterial infections including those of the respiratory tract, skin, and urinary tract.",
+    "Price": 58.75,
+    "PictureUrl": "images/products/keflex.png",
+    "ActiveIngredient": "Cephalexin 500mg",
+    "Conflicts": "Cephalosporin allergy, Penicillin allergy, Kidney disease, Colitis, Diabetes"
+  },
+  {
+    "Name": "Buscopan",
+    "Description": "Used to relieve stomach, intestinal, and bladder cramps and spasms.",
+    "Price": 25.0,
+    "PictureUrl": "images/products/buscopan.png",
+    "ActiveIngredient": "Hyoscine Butylbromide 10mg",
+    "Conflicts": "Glaucoma, Myasthenia gravis, Prostatic hypertrophy, Intestinal obstruction, Tachycardia"
+  },
+  {
+    "Name": "Aspocid",
+    "Description": "Used to treat pain, fever, and inflammation.",
+    "Price": 12.5,
+    "PictureUrl": "images/products/aspocid.png",
+    "ActiveIngredient": "Acetylsalicylic Acid 100mg",
+    "Conflicts": "Asthma, Peptic ulcers, Bleeding disorders, Kidney disease, Gout, Taking blood thinners, anticoagulants, or methotrexate"
+  },
+  {
+    "Name": "Mucosol",
+    "Description": "Used to thin mucus and help clear breathing passages in conditions such as bronchitis and chronic obstructive pulmonary disease.",
+    "Price": 22.75,
+    "PictureUrl": "images/products/mucosol.png",
+    "ActiveIngredient": "Ambroxol 30mg",
+    "Conflicts": "Peptic ulcer, Kidney disease, Pregnancy, Breastfeeding, Children under 2 years"
+  },
+  {
+    "Name": "Mucophylline",
+    "Description": "Used to treat and prevent symptoms of asthma, chronic bronchitis, and emphysema.",
+    "Price": 17.25,
+    "PictureUrl": "images/products/mucophylline.png",
+    "ActiveIngredient": "Theophylline 200mg",
+    "Conflicts": "Heart rhythm disorders, Seizures, Hyperthyroidism, Hypertension, Peptic ulcer, Taking antibiotics, Taking cimetidine"
+  },
+  {
+    "Name": "Motinorm",
+    "Description": "Used to treat nausea, vomiting, and indigestion by increasing the movement of food through the stomach and intestines.",
+    "Price": 32.0,
+    "PictureUrl": "images/products/motinorm.png",
+    "ActiveIngredient": "Domperidone 10mg",
+    "Conflicts": "Heart rhythm disorders, Intestinal obstruction, Prolactinoma, Liver disease, Taking antifungals or antibiotics"
+  },
+  {
+    "Name": "Antistin",
+    "Description": "Used to treat allergic conditions such as hay fever, allergic rhinitis, urticaria, and allergic conjunctivitis.",
+    "Price": 24.5,
+    "PictureUrl": "images/products/antistin.png",
+    "ActiveIngredient": "Chlorpheniramine 4mg",
+    "Conflicts": "Glaucoma, Prostatic hypertrophy, Asthma, Hypertension, Taking CNS depressants, MAO inhibitors"
+  },
+  {
+    "Name": "Nexium",
+    "Description": "Used to treat conditions caused by excessive stomach acid such as gastroesophageal reflux disease (GERD).",
+    "Price": 135.0,
+    "PictureUrl": "images/products/nexium.png",
+    "ActiveIngredient": "Esomeprazole 40mg",
+    "Conflicts": "Taking clopidogrel, Taking rilpivirine, Osteoporosis risk, Vitamin B12 deficiency, Hypomagnesemia"
+  },
+  {
+    "Name": "Ranitidin",
+    "Description": "Used to treat and prevent ulcers in the stomach and intestines and treat conditions in which the stomach produces too much acid.",
+    "Price": 28.75,
+    "PictureUrl": "images/products/ranitidin.png",
+    "ActiveIngredient": "Ranitidine 150mg",
+    "Conflicts": "Liver disease, Kidney disease, Porphyria, Taking warfarin or other anticoagulants"
+  },
+  {
+    "Name": "Normolax",
+    "Description": "Used to treat constipation and promote regular bowel movements.",
+    "Price": 35.25,
+    "PictureUrl": "images/products/normolax.png",
+    "ActiveIngredient": "Lactulose 10g/15ml",
+    "Conflicts": "Galactosemia, Intestinal obstruction, Diabetes, Lactose intolerance"
+  },
+  {
+    "Name": "Cleocin-T",
+    "Description": "Used to treat acne and skin infections caused by bacteria.",
+    "Price": 55.5,
+    "PictureUrl": "images/products/cleocin-t.png",
+    "ActiveIngredient": "Clindamycin 1%",
+    "Conflicts": "History of colitis, Inflammatory bowel disease, Skin sensitivities, Allergy to lincomycin"
+  },
+  {
+    "Name": "Ativan",
+    "Description": "Used to treat anxiety disorders and short-term symptoms of anxiety.",
+    "Price": 40.0,
+    "PictureUrl": "images/products/ativan.png",
+    "ActiveIngredient": "Lorazepam 2mg",
+    "Conflicts": "Respiratory depression, Severe liver disease, Myasthenia gravis, Acute narrow-angle glaucoma, Taking CNS depressants"
+  },
+  {
+    "Name": "Concorz",
+    "Description": "Used to treat high blood pressure, angina, and certain heart rhythm disorders.",
+    "Price": 65.25,
+    "PictureUrl": "images/products/concorz.png",
+    "ActiveIngredient": "Bisoprolol 10mg",
+    "Conflicts": "Asthma, COPD, Heart block, Low blood pressure, Diabetes, Thyroid disorders, Pheochromocytoma"
+  },
+  {
+    "Name": "Epifen",
+    "Description": "Used to treat certain types of seizures in patients with epilepsy.",
+    "Price": 38.75,
+    "PictureUrl": "images/products/epifen.png",
+    "ActiveIngredient": "Phenytoin 100mg",
+    "Conflicts": "Heart block, Porphyria, Diabetes, Pregnancy, Taking other anticonvulsants, antibiotics, or anticoagulants"
+  },
+  {
+    "Name": "Januvia",
+    "Description": "Used with diet and exercise to improve blood sugar control in adults with type 2 diabetes mellitus.",
+    "Price": 225.0,
+    "PictureUrl": "images/products/januvia.png",
+    "ActiveIngredient": "Sitagliptin 100mg",
+    "Conflicts": "Type 1 diabetes, Diabetic ketoacidosis, Kidney disease, Pancreatitis, Taking insulin or sulfonylureas"
+  },
+  {
+    "Name": "Glucophage",
+    "Description": "Used to improve blood sugar control in people with type 2 diabetes.",
+    "Price": 27.5,
+    "PictureUrl": "images/products/glucophage.png",
+    "ActiveIngredient": "Metformin 500mg",
+    "Conflicts": "Kidney disease, Liver disease, Heart failure, Alcoholism, Respiratory failure, Dehydration"
+  },
+  {
+    "Name": "Laxerol",
+    "Description": "Used to treat constipation and to clean the bowel before certain medical procedures.",
+    "Price": 18.25,
+    "PictureUrl": "images/products/laxerol.png",
+    "ActiveIngredient": "Bisacodyl 5mg",
+    "Conflicts": "Intestinal obstruction, Severe abdominal pain, Nausea, Vomiting, Appendicitis, Inflammatory bowel disease"
+  },
+  {
+    "Name": "Carvidon",
+    "Description": "Used to treat high blood pressure, angina, and heart failure.",
+    "Price": 42.75,
+    "PictureUrl": "images/products/carvidon.png",
+    "ActiveIngredient": "Carvedilol 6.25mg",
+    "Conflicts": "Asthma, COPD, Heart block, Severe liver disease, Diabetes, Hyperthyroidism, Pheochromocytoma"
+  },
+  {
+    "Name": "Lipitor",
+    "Description": "Used to lower cholesterol and triglycerides in the blood and to reduce the risk of heart attack and stroke.",
+    "Price": 110.0,
+    "PictureUrl": "images/products/lipitor.png",
+    "ActiveIngredient": "Atorvastatin 20mg",
+    "Conflicts": "Liver disease, Pregnancy, Breastfeeding, Taking cyclosporine, gemfibrozil, or azole antifungals"
+  },
+  {
+    "Name": "Crestor",
+    "Description": "Used to lower cholesterol and triglycerides in the blood and to reduce the risk of heart attack and stroke.",
+    "Price": 175.25,
+    "PictureUrl": "images/products/crestor.png",
+    "ActiveIngredient": "Rosuvastatin 10mg",
+    "Conflicts": "Liver disease, Kidney disease, Hypothyroidism, Pregnancy, Taking cyclosporine, gemfibrozil, or HIV protease inhibitors"
+  },
+  {
+    "Name": "Hemojet",
+    "Description": "Used to treat iron deficiency anemia.",
+    "Price": 25.5,
+    "PictureUrl": "images/products/hemojet.png",
+    "ActiveIngredient": "Ferrous Fumarate 350mg",
+    "Conflicts": "Hemochromatosis, Hemosiderosis, Peptic ulcer, Taking certain antibiotics, antacids, or levodopa"
+  },
+  {
+    "Name": "Cetafen",
+    "Description": "Used to relieve symptoms of colds and allergies, such as nasal congestion, runny nose, sneezing, and itchy, watery eyes.",
+    "Price": 30.75,
+    "PictureUrl": "images/products/cetafen.png",
+    "ActiveIngredient": "Pseudoephedrine 60mg + Cetirizine 5mg",
+    "Conflicts": "Hypertension, Heart disease, Diabetes, Glaucoma, Thyroid problems, Taking MAO inhibitors"
+  },
+  {
+    "Name": "Bronchicum",
+    "Description": "Used to help loosen congestion and expel mucus from the lungs.",
+    "Price": 28.25,
+    "PictureUrl": "images/products/bronchicum.png",
+    "ActiveIngredient": "Thyme Extract + Primrose Root",
+    "Conflicts": "Autoimmune diseases, Hormone-sensitive conditions, Pregnancy, Taking anticoagulants"
+  },
+  {
+    "Name": "Minoxidil",
+    "Description": "Used to stimulate hair growth and slow down balding.",
+    "Price": 65.0,
+    "PictureUrl": "images/products/minoxidil.png",
+    "ActiveIngredient": "Minoxidil 5%",
+    "Conflicts": "Heart disease, Kidney disease, Scalp irritation, Hypertension or hypotension, Taking antihypertensive medications"
+  },
+  {
+    "Name": "Daktarin",
+    "Description": "Used to treat fungal skin infections such as athlete's foot, jock itch, and ringworm.",
+    "Price": 42.5,
+    "PictureUrl": "images/products/daktarin.png",
+    "ActiveIngredient": "Miconazole Nitrate 2%",
+    "Conflicts": "Skin sensitivities, Taking warfarin, Taking oral hypoglycemics"
+  },
+  {
+    "Name": "Nitrofurantoin",
+    "Description": "Used to treat urinary tract infections.",
+    "Price": 35.75,
+    "PictureUrl": "images/products/nitrofurantoin.png",
+    "ActiveIngredient": "Nitrofurantoin 100mg",
+    "Conflicts": "Kidney disease, G6PD deficiency, Peripheral neuropathy, Pregnancy (term), Lung disease, Taking magnesium trisilicate"
+  },
+  {
+    "Name": "Claridar",
+    "Description": "Used to treat bacterial infections of the respiratory tract, skin, and ear.",
+    "Price": 95.25,
+    "PictureUrl": "images/products/claridar.png",
+    "ActiveIngredient": "Clarithromycin 500mg",
+    "Conflicts": "Liver disease, Heart rhythm disorders, Myasthenia gravis, Taking statins, ergot alkaloids, or certain anticonvulsants"
+  },
+  {
+    "Name": "Amoclan",
+    "Description": "Used to treat various bacterial infections including sinusitis, pneumonia, ear infections, and urinary tract infections.",
+    "Price": 75.0,
+    "PictureUrl": "images/products/amoclan.png",
+    "ActiveIngredient": "Amoxicillin 875mg + Clavulanic Acid 125mg",
+    "Conflicts": "Penicillin allergy, Liver disease, Kidney disease, Mononucleosis, Taking allopurinol or probenecid"
+  },
+  {
+    "Name": "Rivanine",
+    "Description": "Used as an antiseptic for cuts, wounds, and burns.",
+    "Price": 15.25,
+    "PictureUrl": "images/products/rivanine.png",
+    "ActiveIngredient": "Acriflavine HCl 0.1%",
+    "Conflicts": "Open wounds with exposed muscle or bone, Eye contact, Allergy to acridine derivatives"
+  },
+  {
+    "Name": "Claforan",
+    "Description": "Used to treat various bacterial infections including those of the respiratory tract, skin, urinary tract, and bones.",
+    "Price": 115.5,
+    "PictureUrl": "images/products/claforan.png",
+    "ActiveIngredient": "Cefotaxime 1g",
+    "Conflicts": "Cephalosporin allergy, Penicillin allergy, Kidney disease, Colitis, Taking nephrotoxic drugs"
+  },
+  {
+    "Name": "Clexane",
+    "Description": "Used to prevent and treat blood clots in veins.",
+    "Price": 295.0,
+    "PictureUrl": "images/products/clexane.png",
+    "ActiveIngredient": "Enoxaparin Sodium 40mg",
+    "Conflicts": "Bleeding disorders, Recent brain/eye/spinal surgery, Severe kidney disease, Artificial heart valves, Taking antiplatelet drugs"
+  },
+  {
+    "Name": "Digoxin",
+    "Description": "Used to treat heart failure and abnormal heart rhythms.",
+    "Price": 22.75,
+    "PictureUrl": "images/products/digoxin.png",
+    "ActiveIngredient": "Digoxin 0.25mg",
+    "Conflicts": "Heart block, Hypokalemia, Kidney disease, Thyroid disorders, Taking amiodarone, verapamil, or quinidine"
+  },
+  {
+    "Name": "Warfarin",
+    "Description": "Used to prevent blood clots from forming or growing larger in your blood and blood vessels.",
+    "Price": 27.5,
+    "PictureUrl": "images/products/warfarin.png",
+    "ActiveIngredient": "Warfarin Sodium 5mg",
+    "Conflicts": "Bleeding disorders, Severe hypertension, Liver disease, Kidney disease, Taking NSAIDs, antibiotics, or herbal supplements"
+  },
+  {
+    "Name": "Mixtard",
+    "Description": "Used to treat diabetes by controlling blood sugar levels.",
+    "Price": 150.25,
+    "PictureUrl": "images/products/mixtard.png",
+    "ActiveIngredient": "Human Insulin 100 IU/ml",
+    "Conflicts": "Hypoglycemia, Kidney disease, Liver disease, Taking beta-blockers, clonidine, or MAO inhibitors"
+  },
+  {
+    "Name": "Lantus",
+    "Description": "Used to treat diabetes by controlling blood sugar levels over an extended period.",
+    "Price": 450.0,
+    "PictureUrl": "images/products/lantus.png",
+    "ActiveIngredient": "Insulin Glargine 100 IU/ml",
+    "Conflicts": "Hypoglycemia, Kidney disease, Liver disease, Taking corticosteroids, beta-blockers, or clonidine"
+  },
+  {
+    "Name": "Depakine",
+    "Description": "Used to treat epilepsy and bipolar disorder.",
+    "Price": 35.75,
+    "PictureUrl": "images/products/depakine.png",
+    "ActiveIngredient": "Sodium Valproate 500mg",
+    "Conflicts": "Liver disease, Urea cycle disorders, Pregnancy, Taking anticoagulants, other anticonvulsants, or antibiotics"
+  },
+  {
+    "Name": "Dermovate",
+    "Description": "Used to treat various skin conditions such as eczema, psoriasis, and dermatitis.",
+    "Price": 28.5,
+    "PictureUrl": "images/products/dermovate.png",
+    "ActiveIngredient": "Clobetasol Propionate 0.05%",
+    "Conflicts": "Skin infections, Acne, Rosacea, Application on face, Pregnancy, Breastfeeding"
+  },
+  {
+    "Name": "Fefol",
+    "Description": "Used to treat iron deficiency anemia.",
+    "Price": 17.25,
+    "PictureUrl": "images/products/fefol.png",
+    "ActiveIngredient": "Ferrous Sulfate 150mg + Folic Acid 0.5mg",
+    "Conflicts": "Hemochromatosis, Hemosiderosis, Peptic ulcer, Taking certain antibiotics, antacids, or levodopa"
+  },
+  {
+    "Name": "Nexavar",
+    "Description": "Used to treat certain types of liver, kidney, and thyroid cancer.",
+    "Price": 7500.0,
+    "PictureUrl": "images/products/nexavar.png",
+    "ActiveIngredient": "Sorafenib 200mg",
+    "Conflicts": "Bleeding problems, Recent surgery, Hypertension, Heart disease, Taking warfarin or other anticoagulants"
+  },
+  {
+    "Name": "Aerius",
+    "Description": "Used to relieve symptoms of allergies such as runny nose, sneezing, and itchy, watery eyes.",
+    "Price": 65.75,
+    "PictureUrl": "images/products/aerius.png",
+    "ActiveIngredient": "Desloratadine 5mg",
+    "Conflicts": "Kidney disease, Liver disease, Pregnancy, Taking erythromycin, ketoconazole, or cimetidine"
+  },
+  {
+    "Name": "Strepsils",
+    "Description": "Used to relieve discomfort and sore throat pain.",
+    "Price": 42.25,
+    "PictureUrl": "images/products/strepsils.png",
+    "ActiveIngredient": "Amylmetacresol 0.6mg + Dichlorobenzyl Alcohol 1.2mg",
+    "Conflicts": "Children under 6 years, Phenylketonuria (if containing aspartame), Diabetes (if containing sugar)"
+  },
+  {
+    "Name": "Catafast",
+    "Description": "Used to relieve pain and inflammation in conditions such as rheumatoid arthritis, osteoarthritis, and menstrual cramps.",
+    "Price": 38.5,
+    "PictureUrl": "images/products/catafast.png",
+    "ActiveIngredient": "Diclofenac Potassium 50mg",
+    "Conflicts": "Stomach ulcers, Asthma, Heart failure, High blood pressure, Kidney disease, Pregnancy, Taking blood thinners"
+  },
+  {
+    "Name": "Inderal",
+    "Description": "Used to treat high blood pressure, angina, certain types of tremor, and certain types of heart rhythm disorders.",
+    "Price": 20.0,
+    "PictureUrl": "images/products/inderal.png",
+    "ActiveIngredient": "Propranolol 40mg",
+    "Conflicts": "Asthma, COPD, Heart block, Diabetes, Depression, Peripheral vascular disease, Hyperthyroidism"
+  },
+  {
+    "Name": "Sinopril",
+    "Description": "Used to treat high blood pressure, heart failure, and to improve survival after a heart attack.",
+    "Price": 18.75,
+    "PictureUrl": "images/products/sinopril.png",
+    "ActiveIngredient": "Lisinopril 10mg",
+    "Conflicts": "Kidney disease, History of angioedema, Pregnancy, Taking potassium supplements, potassium-sparing diuretics, or lithium"
+  },
+  {
+    "Name": "Pantoloc",
+    "Description": "Used to treat certain stomach and esophagus problems such as acid reflux, ulcers, and Zollinger-Ellison syndrome.",
+    "Price": 85.25,
+    "PictureUrl": "images/products/pantoloc.png",
+    "ActiveIngredient": "Pantoprazole 40mg",
+    "Conflicts": "Taking atazanavir, nelfinavir, clopidogrel, or methotrexate, Osteoporosis risk, Vitamin B12 deficiency"
+  },
+  {
+    "Name": "Topamac",
+    "Description": "Used to prevent migraine headaches and to control seizures in certain types of epilepsy.",
+    "Price": 95.0,
+    "PictureUrl": "images/products/topamac.png",
+    "ActiveIngredient": "Topiramate 100mg",
+    "Conflicts": "Kidney stones, Metabolic acidosis, Pregnancy, Glaucoma, Taking CNS depressants, carbonic anhydrase inhibitors"
+  },
+  {
+    "Name": "Abilify",
+    "Description": "Used to treat certain mental/mood disorders such as bipolar disorder, schizophrenia, and irritability associated with autistic disorder.",
+    "Price": 350.75,
+    "PictureUrl": "images/products/abilify.png",
+    "ActiveIngredient": "Aripiprazole 15mg",
+    "Conflicts": "Dementia in elderly, Suicidal thoughts, Diabetes, History of seizures, Taking antidepressants, antipsychotics, or anti-seizure medications"
+  },
+  {
+    "Name": "Neurontin",
+    "Description": "Used to treat seizures and nerve pain caused by shingles.",
+    "Price": 125.5,
+    "PictureUrl": "images/products/neurontin.png",
+    "ActiveIngredient": "Gabapentin 300mg",
+    "Conflicts": "Kidney disease, Respiratory depression, Suicidal thoughts, Taking opioids or CNS depressants"
+  },
+  {
+    "Name": "Aldomet",
+    "Description": "Used to treat high blood pressure.",
+    "Price": 22.25,
+    "PictureUrl": "images/products/aldomet.png",
+    "ActiveIngredient": "Methyldopa 250mg",
+    "Conflicts": "Liver disease, History of depression, Taking MAO inhibitors, iron supplements, or levodopa"
+  },
+  {
+    "Name": "Tenormin",
+    "Description": "Used to treat high blood pressure, angina, and to improve survival after a heart attack.",
+    "Price": 35.0,
+    "PictureUrl": "images/products/tenormin.png",
+    "ActiveIngredient": "Atenolol 50mg",
+    "Conflicts": "Asthma, COPD, Heart block, Diabetes, Peripheral vascular disease, Pheochromocytoma"
+  },
+  {
+    "Name": "Euthyrox",
+    "Description": "Used to treat an underactive thyroid gland (hypothyroidism).",
+    "Price": 40.25,
+    "PictureUrl": "images/products/euthyrox.png",
+    "ActiveIngredient": "Levothyroxine 100mcg",
+    "Conflicts": "Heart disease, Adrenal gland problems, Taking anticoagulants, antidiabetics, or cholestyramine"
+  },
+  {
+    "Name": "Doxycycline",
+    "Description": "Used to treat a wide variety of bacterial infections including those that cause acne.",
+    "Price": 32.75,
+    "PictureUrl": "images/products/doxycycline.png",
+    "ActiveIngredient": "Doxycycline 100mg",
+    "Conflicts": "Pregnancy, Children under 8, Taking antacids, iron, calcium, oral contraceptives, or anticoagulants"
+  },
+  {
+    "Name": "Fucidin",
+    "Description": "Used to treat bacterial skin infections such as impetigo and infected eczema.",
+    "Price": 45.5,
+    "PictureUrl": "images/products/fucidin.png",
+    "ActiveIngredient": "Fusidic Acid 2%",
+    "Conflicts": "Taking statins, Liver disease, Pregnancy, Breastfeeding"
+  },
+  {
+    "Name": "Symbicort",
+    "Description": "Used to control and prevent symptoms of asthma and COPD.",
+    "Price": 375.25,
+    "PictureUrl": "images/products/symbicort.png",
+    "ActiveIngredient": "Budesonide 160mcg + Formoterol 4.5mcg",
+    "Conflicts": "Fungal infections, Tuberculosis, Heart rhythm disorders, Thyroid disorders, Diabetes, Taking beta-blockers"
+  },
+  {
+    "Name": "Ventolin",
+    "Description": "Used to relieve and prevent bronchospasm caused by asthma, bronchitis, and other breathing disorders.",
+    "Price": 32.0,
+    "PictureUrl": "images/products/ventolin.png",
+    "ActiveIngredient": "Salbutamol 100mcg",
+    "Conflicts": "Heart disease, High blood pressure, Diabetes, Thyroid disorders, Taking beta-blockers or diuretics"
+  },
+  {
+    "Name": "Bisolvan",
+    "Description": "Used to reduce the thickness of mucus and help clear breathing passages in various respiratory conditions.",
+    "Price": 22.5,
+    "PictureUrl": "images/products/bisolvan.png",
+    "ActiveIngredient": "Bromhexine 8mg",
+    "Conflicts": "Peptic ulcer, Pregnancy, Breastfeeding, Children under 2 years"
+  },
+  {
+    "Name": "Calcium-D",
+    "Description": "Used to prevent or treat calcium and vitamin D deficiency.",
+    "Price": 35.75,
+    "PictureUrl": "images/products/calciumd.png",
+    "ActiveIngredient": "Calcium Carbonate 600mg + Vitamin D3 400 IU",
+    "Conflicts": "Kidney stones, High calcium levels, Sarcoidosis, Taking tetracycline antibiotics, thyroid medications"
+  },
+  {
+    "Name": "Omega-3",
+    "Description": "Used to help maintain heart, brain, and eye health.",
+    "Price": 120.0,
+    "PictureUrl": "images/products/omega3.png",
+    "ActiveIngredient": "Fish Oil 1000mg",
+    "Conflicts": "Fish or shellfish allergy, Bleeding disorders, Taking anticoagulants or antiplatelet drugs"
+  },
+  {
+    "Name": "Vitamin-C",
+    "Description": "Used to prevent and treat vitamin C deficiency and as an antioxidant.",
+    "Price": 45.25,
+    "PictureUrl": "images/products/vitaminc.png",
+    "ActiveIngredient": "Ascorbic Acid 1000mg",
+    "Conflicts": "Kidney stones, Hemochromatosis, G6PD deficiency, Taking blood thinners or statins"
+  },
+  {
+    "Name": "Prexal",
+    "Description": "Used to treat moderate to severe pain.",
+    "Price": 95.5,
+    "PictureUrl": "images/products/prexal.png",
+    "ActiveIngredient": "Pregabalin 75mg",
+    "Conflicts": "Kidney disease, Heart failure, History of substance abuse, Suicidal thoughts, Taking CNS depressants"
+  },
+  {
+    "Name": "Xanax",
+    "Description": "Used to treat anxiety and panic disorders.",
+    "Price": 35.0,
+    "PictureUrl": "images/products/xanax.png",
+    "ActiveIngredient": "Alprazolam 0.5mg",
+    "Conflicts": "Respiratory depression, Glaucoma, Liver disease, Pregnancy, Taking opioids, alcohol, or CNS depressants"
+  },
+  {
+    "Name": "Dostinex",
+    "Description": "Used to treat high levels of prolactin hormone in both men and women.",
+    "Price": 385.75,
+    "PictureUrl": "images/products/dostinex.png",
+    "ActiveIngredient": "Cabergoline 0.5mg",
+    "Conflicts": "Uncontrolled hypertension, Heart valve disorders, Pregnancy, Taking antipsychotics or antihypertensives"
+  },
+  {
+    "Name": "Cialis",
+    "Description": "Used to treat erectile dysfunction and symptoms of benign prostatic hyperplasia.",
+    "Price": 325.25,
+    "PictureUrl": "images/products/cialis.png",
+    "ActiveIngredient": "Tadalafil 20mg",
+    "Conflicts": "Heart disease, Stroke, Low blood pressure, Taking nitrates, alpha-blockers, or antifungals"
+  },
+  {
+    "Name": "Viagra",
+    "Description": "Used to treat erectile dysfunction and pulmonary arterial hypertension.",
+    "Price": 275.0,
+    "PictureUrl": "images/products/viagra.png",
+    "ActiveIngredient": "Sildenafil 50mg",
+    "Conflicts": "Heart disease, Stroke, Low blood pressure, Taking nitrates, alpha-blockers, or HIV medications"
+  },
+  {
+    "Name": "Imuran",
+    "Description": "Used to prevent rejection of kidney transplants and to treat severe rheumatoid arthritis.",
+    "Price": 105.5,
+    "PictureUrl": "images/products/imuran.png",
+    "ActiveIngredient": "Azathioprine 50mg",
+    "Conflicts": "Bone marrow suppression, Liver disease, Taking allopurinol, Live vaccines, Pregnancy, Infection"
+  },
+  {
+    "Name": "Seretide",
+    "Description": "Used to control and prevent symptoms of asthma and COPD.",
+    "Price": 295.25,
+    "PictureUrl": "images/products/seretide.png",
+    "ActiveIngredient": "Fluticasone 250mcg + Salmeterol 50mcg",
+    "Conflicts": "Fungal infections, Tuberculosis, Heart rhythm disorders, Diabetes, Thyroid disorders, Taking beta-blockers"
+  },
+  {
+    "Name": "Claritine",
+    "Description": "Used to relieve symptoms of allergies such as runny nose, sneezing, and itchy, watery eyes.",
+    "Price": 25.75,
+    "PictureUrl": "images/products/claritine.png",
+    "ActiveIngredient": "Loratadine 10mg",
+    "Conflicts": "Liver disease, Kidney disease, Pregnancy, Taking antibiotics or antifungals"
+  },
+  {
+    "Name": "Maxilase",
+    "Description": "Used to relieve swelling and pain associated with dental, ear, nose, and throat infections.",
+    "Price": 35.5,
+    "PictureUrl": "images/products/maxilase.png",
+    "ActiveIngredient": "Alpha-Amylase 3000 IU",
+    "Conflicts": "Bleeding disorders, Inflammatory bowel disease, Recent surgery, Taking anticoagulants"
+  },
+  {
+    "Name": "Otrivin",
+    "Description": "Used to relieve nasal congestion due to colds, allergies, or sinusitis.",
+    "Price": 27.25,
+    "PictureUrl": "images/products/otrivin.png",
+    "ActiveIngredient": "Xylometazoline 0.1%",
+    "Conflicts": "Hypertension, Heart disease, Diabetes, Thyroid problems, Taking MAO inhibitors, Glaucoma"
+  },
+  {
+    "Name": "Allergex",
+    "Description": "Used to relieve symptoms of allergies such as itching, rash, and hives.",
+    "Price": 15.0,
+    "PictureUrl": "images/products/allergex.png",
+    "ActiveIngredient": "Chlorpheniramine 4mg",
+    "Conflicts": "Glaucoma, Prostatic hypertrophy, Asthma, Hypertension, Taking CNS depressants, MAO inhibitors"
+  },
+  {
+    "Name": "Muccinex",
+    "Description": "Used to reduce chest congestion and make coughs more productive.",
+    "Price": 55.75,
+    "PictureUrl": "images/products/muccinex.png",
+    "ActiveIngredient": "Guaifenesin 600mg",
+    "Conflicts": "Chronic cough, Persistent cough with excessive phlegm, Kidney stones"
+  },
+  {
+    "Name": "Zantac",
+    "Description": "Used to treat and prevent ulcers in the stomach and intestines and treat conditions in which the stomach produces too much acid.",
+    "Price": 32.5,
+    "PictureUrl": "images/products/zantac.png",
+    "ActiveIngredient": "Ranitidine 150mg",
+    "Conflicts": "Liver disease, Kidney disease, Porphyria, Taking warfarin or other anticoagulants"
+  },
+  {
+    "Name": "Primperan",
+    "Description": "Used to treat nausea and vomiting and to facilitate gastric emptying in patients with gastroparesis.",
+    "Price": 18.25,
+    "PictureUrl": "images/products/primperan.png",
+    "ActiveIngredient": "Metoclopramide 10mg",
+    "Conflicts": "Gastrointestinal bleeding, Intestinal obstruction, Seizures, Parkinson's disease, Taking antipsychotics"
+  },
+  {
+    "Name": "Actifed",
+    "Description": "Used to relieve symptoms of allergies, the common cold, and sinus infections.",
+    "Price": 28.0,
+    "PictureUrl": "images/products/actifed.png",
+    "ActiveIngredient": "Triprolidine 2.5mg + Pseudoephedrine 60mg",
+    "Conflicts": "High blood pressure, Heart disease, Diabetes, Glaucoma, Thyroid problems, Prostate problems, Taking MAO inhibitors"
+  },
+  {
+    "Name": "Daflon",
+    "Description": "Used to treat symptoms of poor blood circulation in the legs, such as pain, cramping, and swelling.",
+    "Price": 75.5,
+    "PictureUrl": "images/products/daflon.png",
+    "ActiveIngredient": "Diosmin 450mg + Hesperidin 50mg",
+    "Conflicts": "Bleeding disorders, Taking anticoagulants, Pregnancy, Breastfeeding"
+  },
+  {
+    "Name": "Proscar",
+    "Description": "Used to treat symptoms of benign prostatic hyperplasia (BPH) in men with an enlarged prostate.",
+    "Price": 185.25,
+    "PictureUrl": "images/products/proscar.png",
+    "ActiveIngredient": "Finasteride 5mg",
+    "Conflicts": "Liver disease, Pregnancy (especially for women handling the medication), Prostate cancer"
+  },
+  {
+    "Name": "Antabuse",
+    "Description": "Used to treat chronic alcoholism by causing unpleasant effects when alcohol is consumed.",
+    "Price": 95.0,
+    "PictureUrl": "images/products/antabuse.png",
+    "ActiveIngredient": "Disulfiram 500mg",
+    "Conflicts": "Alcohol consumption, Heart disease, Liver disease, Kidney disease, Taking metronidazole or paraldehyde"
+  },
+  {
+    "Name": "Renitec",
+    "Description": "Used to treat high blood pressure, heart failure, and diabetic kidney disease.",
+    "Price": 22.75,
+    "PictureUrl": "images/products/renitec.png",
+    "ActiveIngredient": "Enalapril 10mg",
+    "Conflicts": "Kidney disease, History of angioedema, Pregnancy, Taking potassium supplements or lithium"
+  },
+  {
+    "Name": "Lamisil",
+    "Description": "Used to treat fungal infections of the skin, scalp, and nails.",
+    "Price": 65.5,
+    "PictureUrl": "images/products/lamisil.png",
+    "ActiveIngredient": "Terbinafine 250mg",
+    "Conflicts": "Liver disease, Kidney disease, Lupus, Taking certain antibiotics or antidepressants"
+  },
+  {
+    "Name": "Zocor",
+    "Description": "Used to lower cholesterol and triglycerides in the blood and to reduce the risk of heart attack and stroke.",
+    "Price": 125.25,
+    "PictureUrl": "images/products/zocor.png",
+    "ActiveIngredient": "Simvastatin 20mg",
+    "Conflicts": "Liver disease, Pregnancy, Breastfeeding, Taking cyclosporine, danazol, or certain antibiotics"
+  },
+  {
+    "Name": "Sibelium",
+    "Description": "Used to prevent migraine headaches and to treat vertigo.",
+    "Price": 45.0,
+    "PictureUrl": "images/products/sibelium.png",
+    "ActiveIngredient": "Flunarizine 10mg",
+    "Conflicts": "Depression, Parkinson's disease, Heart block, Taking CNS depressants or antipsychotics"
+  },
+  {
+    "Name": "Telfast",
+    "Description": "Used to relieve symptoms of allergies such as runny nose, sneezing, and itchy, watery eyes.",
+    "Price": 55.75,
+    "PictureUrl": "images/products/telfast.png",
+    "ActiveIngredient": "Fexofenadine 120mg",
+    "Conflicts": "Kidney disease, Taking erythromycin, ketoconazole, or aluminum/magnesium antacids"
+  },
+  {
+    "Name": "Canesten",
+    "Description": "Used to treat fungal infections of the skin, vagina, and penis.",
+    "Price": 38.5,
+    "PictureUrl": "images/products/canesten.png",
+    "ActiveIngredient": "Clotrimazole 1%",
+    "Conflicts": "Taking warfarin, Pregnancy, Breastfeeding, Skin sensitivities"
+  },
+  {
+    "Name": "Amitril",
+    "Description": "Used to treat depression and certain types of pain, such as nerve pain.",
+    "Price": 25.25,
+    "PictureUrl": "images/products/amitril.png",
+    "ActiveIngredient": "Amitriptyline 25mg",
+    "Conflicts": "Heart block, Recent heart attack, Taking MAO inhibitors, Glaucoma, Urinary retention"
+  },
+  {
+    "Name": "Tavanic",
+    "Description": "Used to treat certain bacterial infections affecting the lungs, skin, and urinary tract.",
+    "Price": 115.0,
+    "PictureUrl": "images/products/tavanic.png",
+    "ActiveIngredient": "Levofloxacin 500mg",
+    "Conflicts": "Tendon problems, Myasthenia gravis, Heart rhythm disorders, Seizures, Taking corticosteroids or NSAIDs"
   }
-]
+] 
+
+
+	

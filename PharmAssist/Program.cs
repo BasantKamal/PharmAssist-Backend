@@ -110,8 +110,9 @@ namespace PharmAssist
                 app.UseMiddleware<ExceptionMiddleWare>();
                 app.UseSwaggerMiddleWares();
             }
+			app.MapGet("/", () => Results.Ok("PharmAssist API is running"));
 
-            app.UseStatusCodePagesWithRedirects("/errors/{0}");
+			app.UseStatusCodePagesWithRedirects("/errors/{0}");
             app.UseHttpsRedirection();
             app.UseStaticFiles(); //for images
             app.UseCors("MyPolicy");

@@ -1,0 +1,15 @@
+A:\KERO_RAED\PharmAssist-Backend\PharmAssist.Core\bin\Release\net8.0\PharmAssist.Core.deps.json
+A:\KERO_RAED\PharmAssist-Backend\PharmAssist.Core\bin\Release\net8.0\PharmAssist.Core.runtimeconfig.json
+A:\KERO_RAED\PharmAssist-Backend\PharmAssist.Core\bin\Release\net8.0\PharmAssist.Core.dll
+A:\KERO_RAED\PharmAssist-Backend\PharmAssist.Core\bin\Release\net8.0\PharmAssist.Core.pdb
+A:\KERO_RAED\PharmAssist-Backend\PharmAssist.Core\obj\Release\net8.0\PharmAssist.Core.csproj.AssemblyReference.cache
+A:\KERO_RAED\PharmAssist-Backend\PharmAssist.Core\obj\Release\net8.0\PharmAssist.Core.GeneratedMSBuildEditorConfig.editorconfig
+A:\KERO_RAED\PharmAssist-Backend\PharmAssist.Core\obj\Release\net8.0\PharmAssist.Core.AssemblyInfoInputs.cache
+A:\KERO_RAED\PharmAssist-Backend\PharmAssist.Core\obj\Release\net8.0\PharmAssist.Core.AssemblyInfo.cs
+A:\KERO_RAED\PharmAssist-Backend\PharmAssist.Core\obj\Release\net8.0\PharmAssist.Core.csproj.CoreCompileInputs.cache
+A:\KERO_RAED\PharmAssist-Backend\PharmAssist.Core\obj\Release\net8.0\PharmAssist.Core.sourcelink.json
+A:\KERO_RAED\PharmAssist-Backend\PharmAssist.Core\obj\Release\net8.0\PharmAssist.Core.dll
+A:\KERO_RAED\PharmAssist-Backend\PharmAssist.Core\obj\Release\net8.0\refint\PharmAssist.Core.dll
+A:\KERO_RAED\PharmAssist-Backend\PharmAssist.Core\obj\Release\net8.0\PharmAssist.Core.pdb
+A:\KERO_RAED\PharmAssist-Backend\PharmAssist.Core\obj\Release\net8.0\PharmAssist.Core.genruntimeconfig.cache
+A:\KERO_RAED\PharmAssist-Backend\PharmAssist.Core\obj\Release\net8.0\ref\PharmAssist.Core.dll

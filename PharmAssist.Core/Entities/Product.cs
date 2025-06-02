@@ -15,5 +15,7 @@ namespace PharmAssist.Core.Entities
 		public string PictureUrl { get; set; }
 		public decimal Price { get; set; }
 		public string ActiveIngredient { get; set; }
-    }
+		public string Conflicts { get; set; }
+
+	}
 }
