@@ -327,4 +327,3 @@ A:\KERO_RAED\PharmAssist-Backend\PharmAssist\obj\Debug\net8.0\refint\PharmAssist
 A:\KERO_RAED\PharmAssist-Backend\PharmAssist\obj\Debug\net8.0\PharmAssist.pdb
 A:\KERO_RAED\PharmAssist-Backend\PharmAssist\obj\Debug\net8.0\PharmAssist.genruntimeconfig.cache
 A:\KERO_RAED\PharmAssist-Backend\PharmAssist\obj\Debug\net8.0\ref\PharmAssist.dll
-A:\KERO_RAED\PharmAssist-Backend\PharmAssist\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

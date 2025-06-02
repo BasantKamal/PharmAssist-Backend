@@ -20,6 +20,28 @@ namespace PharmAssist.APIs.Controllers
 			_mapper = mapper;
 		}	
 
+		//Test Redis Connection
+		[HttpGet("test-redis")]
+		public async Task<ActionResult> TestRedisConnection()
+		{
+			try
+			{
+				var testBasket = new CustomerBasket("test-connection");
+				testBasket.Items = new List<BasketItem>();
+				
+				var result = await _basketRepository.UpdateBasketAsync(testBasket);
+				if (result != null)
+				{
+					await _basketRepository.DeleteBasketAsync("test-connection");
+					return Ok(new { message = "Redis connection successful!", timestamp = DateTime.UtcNow });
+				}
+				return BadRequest(new { message = "Failed to create test basket" });
+			}
+			catch (Exception ex)
+			{
+				return BadRequest(new { message = "Redis connection failed", error = ex.Message });
+			}
+		}
 
 		//GET Or ReCreate Basket
 		[HttpGet]
