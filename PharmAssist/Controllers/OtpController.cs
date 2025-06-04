@@ -62,6 +62,31 @@ public class OtpController : ControllerBase
 
 	}
 
+	[HttpPost("VerifyResetOtp")]
+	public async Task<IActionResult> VerifyResetOtp([FromBody] OtpVerifyRequest request)
+	{
+		if (!ModelState.IsValid)
+			return BadRequest(new { success = false, message = "Invalid request." });
+
+		var (isValid, err) = await _otpService.VerifyOtpAsync(request.Email, request.Code);
+		if (!isValid)
+			return BadRequest(new { success = false, message = err });
+
+		var user = await _userManager.FindByEmailAsync(request.Email);
+		if (user == null)
+			return BadRequest(new { success = false, message = "User not found." });
+
+		var resetToken = await _userManager.GeneratePasswordResetTokenAsync(user);
+
+		return Ok(new
+		{
+			success = true,
+			message = "OTP verified.",
+			resetToken 
+		});
+	}
+
+
 	[HttpPost("Resend")]
 	public async Task<IActionResult> ResendOtp([FromBody] EmailRequest request)
 	{

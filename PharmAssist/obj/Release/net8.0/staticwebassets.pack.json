@@ -1,0 +1,417 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\abilify.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\abilify.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\actifed.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\actifed.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\aerius.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\aerius.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\aldomet.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\aldomet.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\allergex.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\allergex.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\alphintern.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\alphintern.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\amoclan.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\amoclan.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\amrizole.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\amrizole.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\antinal.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\antinal.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\antistin.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\antistin.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\aspocid.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\aspocid.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\ativan.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\ativan.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\augmentin.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\augmentin.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\betadine.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\betadine.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\bisolvan.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\bisolvan.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\bronchicum.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\bronchicum.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\brufen.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\brufen.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\buscopan.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\buscopan.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\calciumD.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\calciumD.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\canesten.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\canesten.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\cardixin.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\cardixin.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\carvid.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\carvid.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\catafast.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\catafast.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\cataflam.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\cataflam.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\cetafen.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\cetafen.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\cialis.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\cialis.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\cipro.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\cipro.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\claforan.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\claforan.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\claridar.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\claridar.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\claritine.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\claritine.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\cleocin-t.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\cleocin-t.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\clexane.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\clexane.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\comtrex.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\comtrex.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\concor.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\concor.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\congestal.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\congestal.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\crestor.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\crestor.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\daflon.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\daflon.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\daktarin.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\daktarin.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\depakine-chrono.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\depakine-chrono.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\dermovate.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\dermovate.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\dostinex.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\dostinex.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\euthyrox.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\euthyrox.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\ezz3.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\ezz3.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\fefol.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\fefol.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\flagyl.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\flagyl.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\fucidin.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\fucidin.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\glucophage.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\glucophage.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\haemojet.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\haemojet.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\histazine.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\histazine.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\imuran.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\imuran.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\inderal.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\inderal.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\januvia.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\januvia.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\kapect.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\kapect.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\keflex.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\keflex.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\lamisil.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\lamisil.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\lantus.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\lantus.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\laxeol.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\laxeol.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\librax.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\librax.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\lipitor.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\lipitor.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\macrofuran.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\macrofuran.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\marevan.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\marevan.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\maxilase.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\maxilase.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\minoxidil.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\minoxidil.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\mixtard.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\mixtard.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\motinorm.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\motinorm.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\moxipen.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\moxipen.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\mucinex.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\mucinex.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\mucophylline.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\mucophylline.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\mucosol.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\mucosol.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\neurontin.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\neurontin.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\nexavar.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\nexavar.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\nexium.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\nexium.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\normolax.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\normolax.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\omega3.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\omega3.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\otrivin.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\otrivin.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\panadol-extra.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\panadol-extra.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\pantoloc.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\pantoloc.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\primperan.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\primperan.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\proscar.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\proscar.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\ranitidin.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\ranitidin.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\renitec.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\renitec.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\seretide.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\seretide.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\sibelium.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\sibelium.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\sinopril.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\sinopril.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\strepsils.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\strepsils.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\symbicort.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\symbicort.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\tavanic.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\tavanic.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\telfast.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\telfast.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\tenormin.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\tenormin.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\topamax.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\topamax.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\tryptizol.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\tryptizol.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\ventolin.pn.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\ventolin.pn.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\vibramycin.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\vibramycin.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\vitaminc.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\vitaminc.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\voltaren.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\voltaren.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\xanax.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\xanax.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\zentacal.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\zentacal.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\zocor.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\zocor.png"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\zyrtec.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\zyrtec.png"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.PharmAssist.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.PharmAssist.props",
+      "PackagePath": "build\\PharmAssist.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PharmAssist.props",
+      "PackagePath": "buildMultiTargeting\\PharmAssist.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.PharmAssist.props",
+      "PackagePath": "buildTransitive\\PharmAssist.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

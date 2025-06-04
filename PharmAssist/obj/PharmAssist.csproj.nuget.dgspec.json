@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist\\PharmAssist.csproj": {}
+    "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\PharmAssist.csproj": {}
   },
   "projects": {
-    "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj": {
+    "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj",
         "projectName": "PharmAssist.Core",
-        "projectPath": "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj",
-        "packagesPath": "C:\\Users\\ehaba\\.nuget\\packages\\",
-        "outputPath": "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Core\\obj\\",
+        "projectPath": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ehaba\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,8 +40,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -101,25 +97,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj": {
+    "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj",
         "projectName": "PharmAssist.Repository",
-        "projectPath": "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj",
-        "packagesPath": "C:\\Users\\ehaba\\.nuget\\packages\\",
-        "outputPath": "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Repository\\obj\\",
+        "projectPath": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ehaba\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -127,14 +119,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj": {
-                "projectPath": "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj"
+              "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj": {
+                "projectPath": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj"
               }
             }
           }
@@ -148,8 +141,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -206,25 +198,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Service\\PharmAssist.Service.csproj": {
+    "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Service\\PharmAssist.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Service\\PharmAssist.Service.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Service\\PharmAssist.Service.csproj",
         "projectName": "PharmAssist.Service",
-        "projectPath": "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Service\\PharmAssist.Service.csproj",
-        "packagesPath": "C:\\Users\\ehaba\\.nuget\\packages\\",
-        "outputPath": "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Service\\obj\\",
+        "projectPath": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Service\\PharmAssist.Service.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Service\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ehaba\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -232,17 +220,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj": {
-                "projectPath": "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj"
+              "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj": {
+                "projectPath": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj"
               },
-              "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj": {
-                "projectPath": "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj"
+              "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj": {
+                "projectPath": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj"
               }
             }
           }
@@ -256,8 +245,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -314,25 +302,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist\\PharmAssist.csproj": {
+    "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\PharmAssist.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist\\PharmAssist.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\PharmAssist.csproj",
         "projectName": "PharmAssist",
-        "projectPath": "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist\\PharmAssist.csproj",
-        "packagesPath": "C:\\Users\\ehaba\\.nuget\\packages\\",
-        "outputPath": "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist\\obj\\",
+        "projectPath": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\PharmAssist.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ehaba\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -340,20 +324,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj": {
-                "projectPath": "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj"
+              "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj": {
+                "projectPath": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj"
               },
-              "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj": {
-                "projectPath": "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj"
+              "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj": {
+                "projectPath": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj"
               },
-              "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Service\\PharmAssist.Service.csproj": {
-                "projectPath": "A:\\KERO_RAED\\PharmAssist-Backend\\PharmAssist.Service\\PharmAssist.Service.csproj"
+              "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Service\\PharmAssist.Service.csproj": {
+                "projectPath": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Service\\PharmAssist.Service.csproj"
               }
             }
           }
@@ -367,8 +352,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -432,7 +416,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

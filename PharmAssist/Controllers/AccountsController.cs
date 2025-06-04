@@ -109,32 +109,20 @@ namespace PharmAssist.Controllers
 		public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordDTO model)
 		{
 			if (!ModelState.IsValid)
-			{
-				return BadRequest(new { success = false, message = "Invalid input data." });
-			}
-
-			var (isValid, errorMessage) = await _otpService.VerifyOtpAsync(model.Email, model.Otp);
-			if (!isValid)
-			{
-				return BadRequest(new { success = false, message = errorMessage });
-			}
+				return BadRequest(new { success = false, message = "Invalid data." });
 
 			var user = await _userManager.FindByEmailAsync(model.Email);
 			if (user == null)
-			{
 				return BadRequest(new { success = false, message = "User not found." });
-			}
 
-			var resetToken = await _userManager.GeneratePasswordResetTokenAsync(user);
-
-			var resetResult = await _userManager.ResetPasswordAsync(user, resetToken, model.Password);
+			var resetResult = await _userManager.ResetPasswordAsync(user, model.ResetToken, model.Password);
 			if (!resetResult.Succeeded)
 			{
-				var errors = resetResult.Errors.Select(e => e.Description).ToList();
+				var errors = resetResult.Errors.Select(e => e.Description);
 				return BadRequest(new { success = false, message = "Password reset failed.", errors });
 			}
 
-			return Ok(new { success = true, message = "Password reset successful." });
+			return Ok(new { success = true, message = "Password has been reset." });
 		}
 
 		[Authorize]

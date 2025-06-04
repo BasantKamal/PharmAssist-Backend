@@ -8,9 +8,12 @@ namespace PharmAssist.Core.Specifications
 	{
         //CTOR used to GET all products
         public ProductSpecs(ProductSpecParam Params) 
-            :base(p=>
-            (string.IsNullOrEmpty(Params.Search) || p.Name.ToLower().Contains(Params.Search)))
-        {
+            :base(p =>
+		(string.IsNullOrEmpty(Params.Search) || p.Name.ToLower().Contains(Params.Search)) 
+            &&
+		(string.IsNullOrEmpty(Params.ActiveIngredient) || p.ActiveIngredient.ToLower().Contains(Params.ActiveIngredient))
+			)
+		{
           
             if (!string.IsNullOrEmpty(Params.Sort))
             {
@@ -22,9 +25,6 @@ namespace PharmAssist.Core.Specifications
                     case "PriceDesc":
                         AddOrderByDesc(p => p.Price);
                         break;
-					case "ActiveIngredient":
-						AddOrderBy(p => p.ActiveIngredient);
-						break;
 					default:
                         AddOrderBy(p => p.Name);
                         break;

@@ -15,8 +15,15 @@ namespace PharmAssist.Core.Specifications
 		}
 		public int PageIndex { get; set; } = 1;
 
-		private string? search;
 
+		private string? activeIngredient;
+		public string? ActiveIngredient
+		{
+			get { return activeIngredient; }
+			set { activeIngredient = value?.ToLower(); }
+		}
+
+		private string? search;
 		public string? Search
 		{
 			get { return search; }
