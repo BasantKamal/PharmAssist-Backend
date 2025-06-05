@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PharmAssist.Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36924b83451e627c560ce18f33aa7069069bc14b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3afba3931986c1487a4ee610d65588b60359b02a")]
 [assembly: System.Reflection.AssemblyProductAttribute("PharmAssist.Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PharmAssist.Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
