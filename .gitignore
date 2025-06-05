@@ -1,1 +1,21 @@
 .vs/
+
+# Build outputs
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Configuration files with secrets (create templates instead)
+appsettings.Development.json
+appsettings.Production.json
+
+# User-specific files
+*.user
+*.suo
+*.cache
+.vs/
+
+# IDE files
+.vscode/
+.idea/

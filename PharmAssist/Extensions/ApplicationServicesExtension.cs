@@ -20,6 +20,7 @@ namespace PharmAssist.Extensions
 			Services.AddScoped(typeof(IOrderService), typeof(OrderService));
 			Services.AddScoped(typeof(IBasketRepository), typeof(BasketRepository));
 			Services.AddScoped<IEmailService, EmailService>();
+			Services.AddScoped<IPaymentService, PaymentService>();
 			Services.Configure<IdentityOptions>(options => options.SignIn.RequireConfirmedEmail = true);
 
 

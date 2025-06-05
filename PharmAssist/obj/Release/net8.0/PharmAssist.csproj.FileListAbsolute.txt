@@ -494,3 +494,5 @@ D:\PharmAssist-Backend\PharmAssist\obj\Release\net8.0\refint\PharmAssist.dll
 D:\PharmAssist-Backend\PharmAssist\obj\Release\net8.0\PharmAssist.pdb
 D:\PharmAssist-Backend\PharmAssist\obj\Release\net8.0\PharmAssist.genruntimeconfig.cache
 D:\PharmAssist-Backend\PharmAssist\obj\Release\net8.0\ref\PharmAssist.dll
+D:\PharmAssist-Backend\PharmAssist\bin\Release\net8.0\Newtonsoft.Json.dll
+D:\PharmAssist-Backend\PharmAssist\bin\Release\net8.0\Stripe.net.dll

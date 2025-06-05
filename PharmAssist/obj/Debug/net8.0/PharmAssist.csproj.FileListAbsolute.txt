@@ -493,3 +493,5 @@ D:\PharmAssist-Backend\PharmAssist\obj\Debug\net8.0\scopedcss\bundle\PharmAssist
 D:\PharmAssist-Backend\PharmAssist\obj\Debug\net8.0\PharmAssist.csproj.CopyComplete
 D:\PharmAssist-Backend\PharmAssist\obj\Debug\net8.0\PharmAssist.genruntimeconfig.cache
 D:\PharmAssist-Backend\PharmAssist\obj\Debug\net8.0\ref\PharmAssist.dll
+D:\PharmAssist-Backend\PharmAssist\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\PharmAssist-Backend\PharmAssist\bin\Debug\net8.0\Stripe.net.dll

@@ -1,0 +1,35 @@
+### Create Payment Intent
+POST https://localhost:7195/api/payments/test-basket-id
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+Content-Type: application/json
+
+###
+
+### Webhook Endpoint (requires valid Stripe signature)
+### Use Stripe CLI for testing: stripe listen --forward-to localhost:7195/api/payments/webhook
+POST https://localhost:7195/api/payments/webhook
+Content-Type: application/json
+Stripe-Signature: {{$stripe_signature}}
+
+{
+  "id": "evt_test_webhook",
+  "object": "event",
+  "api_version": "2020-08-27",
+  "created": 1609459200,
+  "data": {
+    "object": {
+      "id": "pi_test_payment_intent",
+      "object": "payment_intent",
+      "status": "succeeded"
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_test_request",
+    "idempotency_key": null
+  },
+  "type": "payment_intent.succeeded"
+}
+
+###

@@ -73,6 +73,10 @@
             "StackExchange.Redis": {
               "target": "Package",
               "version": "[2.8.37, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[46.0.0, )"
             }
           },
           "imports": [
@@ -168,6 +172,10 @@
             "StackExchange.Redis": {
               "target": "Package",
               "version": "[2.8.37, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[46.0.0, )"
             }
           },
           "imports": [
@@ -266,6 +274,10 @@
             "StackExchange.Redis": {
               "target": "Package",
               "version": "[2.8.37, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[46.0.0, )"
             }
           },
           "imports": [
@@ -367,6 +379,10 @@
             "StackExchange.Redis": {
               "target": "Package",
               "version": "[2.8.37, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[45.15.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

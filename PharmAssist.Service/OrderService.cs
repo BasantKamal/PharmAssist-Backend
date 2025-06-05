@@ -49,6 +49,12 @@ namespace PharmAssist.Service
 			//5.Create Order
 
 			var order=new Order(buyerEmail,shippingAddress,deliveryMethod,orderItems,subTotal);
+			
+			//Set payment intent id from basket
+			if (!string.IsNullOrEmpty(basket.PaymentIntentId))
+			{
+				order.PaymentIntentId = basket.PaymentIntentId;
+			}
 
 			//6.Add Order Locally
 
@@ -58,6 +64,10 @@ namespace PharmAssist.Service
 
 			var result= await _unitOfWork.CompleteAsync();
 			if (result <= 0) return null;
+			
+			//8.Delete basket after successful order creation
+			await _basketRepository.DeleteBasketAsync(basketId);
+			
 			return order;
 		}
 

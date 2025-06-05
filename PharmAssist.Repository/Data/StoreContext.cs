@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PharmAssist.Core.Entities;
 using PharmAssist.Core.Entities.Order_Aggregation;
+using PharmAssist.Core.Entities.Payment;
 using System.Reflection;
 
 
@@ -21,7 +22,7 @@ namespace PharmAssist.Repository.Data
 		public DbSet<Product> Products { get; set; }
 		public DbSet<Order> Orders { get; set; }
 		public DbSet<OrderItem> OrderItems { get; set; }
-
 		public DbSet<DeliveryMethod> DeliveryMethod { get; set; }
+		public DbSet<PaymentIntent> PaymentIntents { get; set; }
 	}
 }

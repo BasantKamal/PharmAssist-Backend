@@ -15,7 +15,8 @@
           "Microsoft.EntityFrameworkCore": "8.0.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.14",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.14",
-          "StackExchange.Redis": "2.8.37"
+          "StackExchange.Redis": "2.8.37",
+          "Stripe.net": "46.0.0"
         },
         "runtime": {
           "PharmAssist.Core.dll": {}
@@ -746,6 +747,14 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
       "Pipelines.Sockets.Unofficial/2.2.8": {
         "dependencies": {
           "System.IO.Pipelines": "6.0.3"
@@ -766,6 +775,18 @@
           "lib/net8.0/StackExchange.Redis.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.8.37.59676"
+          }
+        }
+      },
+      "Stripe.net/46.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "System.Configuration.ConfigurationManager": "6.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/Stripe.net.dll": {
+            "assemblyVersion": "46.0.0.0",
+            "fileVersion": "46.0.0.0"
           }
         }
       },
@@ -1390,6 +1411,13 @@
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
     },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
     "Pipelines.Sockets.Unofficial/2.2.8": {
       "type": "package",
       "serviceable": true,
@@ -1403,6 +1431,13 @@
       "sha512": "sha512-ULscDAQR+z132IsLczXcM/PG+EyfQMNxhvqjG1Xd/h/J1O9prsUU4pG9d95xv77lUF8v3X6owpf/11Uh0uvZAQ==",
       "path": "stackexchange.redis/2.8.37",
       "hashPath": "stackexchange.redis.2.8.37.nupkg.sha512"
+    },
+    "Stripe.net/46.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4Lf6HtG0RyJ2mIYhS3f1CmMKNpU/vPci11ZSQq8mR+i/zhtVH3wnwvIS8yRAJSNA5J/k1yEByBfclzrI2qoXIQ==",
+      "path": "stripe.net/46.0.0",
+      "hashPath": "stripe.net.46.0.0.nupkg.sha512"
     },
     "System.ClientModel/1.0.0": {
       "type": "package",
