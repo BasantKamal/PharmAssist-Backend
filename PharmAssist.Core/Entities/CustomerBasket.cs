@@ -7,6 +7,7 @@ namespace PharmAssist.Core.Entities
 		public CustomerBasket(string id)
 		{
 			Id= id;
+			Items = new List<BasketItem>();
 		}
 
 		public string Id { get; set; }

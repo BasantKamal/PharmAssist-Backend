@@ -1,25 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\",
+  "WorkspaceRootPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|c:\\users\\hp\\desktop\\pharmassist\\pharmassist-backend\\pharmassist.core\\entities\\basketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|solutionrelative:pharmassist.core\\entities\\basketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|c:\\users\\hp\\desktop\\pharmassist\\pharmassist-backend\\pharmassist\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|d:\\bosy\\graduation project\\pharmassist code\\pharmassist\\pharmassist-backend\\pharmassist\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|c:\\users\\hp\\desktop\\pharmassist\\pharmassist-backend\\pharmassist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|d:\\bosy\\graduation project\\pharmassist code\\pharmassist\\pharmassist-backend\\pharmassist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hp\\AppData\\Local\\SourceServer\\db3e6586cf1c4565c551bee97db532b702e103327a95619af0f0a0111ede2139\\PharmAssist\\Helpers\\ProductPictureUrlResolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E50F272E-47AD-41D2-9C6E-80E56777C4D3}|PharmAssist.Repository\\PharmAssist.Repository.csproj|c:\\users\\hp\\desktop\\pharmassist\\pharmassist-backend\\pharmassist.repository\\data\\dataseed\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E50F272E-47AD-41D2-9C6E-80E56777C4D3}|PharmAssist.Repository\\PharmAssist.Repository.csproj|solutionrelative:pharmassist.repository\\data\\dataseed\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|d:\\bosy\\graduation project\\pharmassist code\\pharmassist\\pharmassist-backend\\pharmassist\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,66 +39,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BasketItem.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Core\\Entities\\BasketItem.cs",
-              "RelativeDocumentMoniker": "PharmAssist.Core\\Entities\\BasketItem.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Core\\Entities\\BasketItem.cs",
-              "RelativeToolTip": "PharmAssist.Core\\Entities\\BasketItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Title": "BasketsController.cs",
+              "DocumentMoniker": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\Controllers\\BasketsController.cs",
+              "RelativeDocumentMoniker": "PharmAssist\\Controllers\\BasketsController.cs",
+              "ToolTip": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\Controllers\\BasketsController.cs",
+              "RelativeToolTip": "PharmAssist\\Controllers\\BasketsController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T06:44:10.65Z",
+              "WhenOpened": "2025-06-10T16:57:30.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BasketsController.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\Controllers\\BasketsController.cs",
-              "RelativeDocumentMoniker": "PharmAssist\\Controllers\\BasketsController.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\Controllers\\BasketsController.cs",
-              "RelativeToolTip": "PharmAssist\\Controllers\\BasketsController.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T06:40:11.148Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\appsettings.json",
+              "RelativeDocumentMoniker": "PharmAssist\\appsettings.json",
+              "ToolTip": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\appsettings.json",
+              "RelativeToolTip": "PharmAssist\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-10T18:39:16.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\appsettings.json",
-              "RelativeDocumentMoniker": "PharmAssist\\appsettings.json",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\appsettings.json",
-              "RelativeToolTip": "PharmAssist\\appsettings.json",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAqwBYAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-04T01:09:54.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductPictureUrlResolver.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\AppData\\Local\\SourceServer\\db3e6586cf1c4565c551bee97db532b702e103327a95619af0f0a0111ede2139\\PharmAssist\\Helpers\\ProductPictureUrlResolver.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\db3e6586cf1c4565c551bee97db532b702e103327a95619af0f0a0111ede2139\\PharmAssist\\Helpers\\ProductPictureUrlResolver.cs",
-              "ToolTip": "C:\\Users\\Hp\\AppData\\Local\\SourceServer\\db3e6586cf1c4565c551bee97db532b702e103327a95619af0f0a0111ede2139\\PharmAssist\\Helpers\\ProductPictureUrlResolver.cs",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\db3e6586cf1c4565c551bee97db532b702e103327a95619af0f0a0111ede2139\\PharmAssist\\Helpers\\ProductPictureUrlResolver.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "PharmAssist\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "PharmAssist\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAwwEkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T19:27:35.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "products.json",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Repository\\Data\\DataSeed\\products.json",
-              "RelativeDocumentMoniker": "PharmAssist.Repository\\Data\\DataSeed\\products.json",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Repository\\Data\\DataSeed\\products.json",
-              "RelativeToolTip": "PharmAssist.Repository\\Data\\DataSeed\\products.json",
-              "ViewState": "AQIAAAsDAAAAAAAAAAAAABkDAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-03T16:15:39.548Z",
+              "WhenOpened": "2025-06-10T17:32:07.902Z",
               "EditorCaption": ""
             }
           ]

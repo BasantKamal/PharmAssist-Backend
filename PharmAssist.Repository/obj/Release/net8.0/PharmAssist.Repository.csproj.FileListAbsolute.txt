@@ -52,3 +52,21 @@ D:\PharmAssist-Backend\PharmAssist.Repository\obj\Release\net8.0\refint\PharmAss
 D:\PharmAssist-Backend\PharmAssist.Repository\obj\Release\net8.0\PharmAssist.Repository.pdb
 D:\PharmAssist-Backend\PharmAssist.Repository\obj\Release\net8.0\PharmAssist.Repository.genruntimeconfig.cache
 D:\PharmAssist-Backend\PharmAssist.Repository\obj\Release\net8.0\ref\PharmAssist.Repository.dll
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist-Backend\PharmAssist.Repository\bin\Release\net8.0\PharmAssist.Repository.deps.json
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist-Backend\PharmAssist.Repository\bin\Release\net8.0\PharmAssist.Repository.runtimeconfig.json
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist-Backend\PharmAssist.Repository\bin\Release\net8.0\PharmAssist.Repository.dll
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist-Backend\PharmAssist.Repository\bin\Release\net8.0\PharmAssist.Repository.pdb
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist-Backend\PharmAssist.Repository\bin\Release\net8.0\PharmAssist.Core.dll
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist-Backend\PharmAssist.Repository\bin\Release\net8.0\PharmAssist.Core.pdb
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist-Backend\PharmAssist.Repository\obj\Release\net8.0\PharmAssist.Repository.csproj.AssemblyReference.cache
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist-Backend\PharmAssist.Repository\obj\Release\net8.0\PharmAssist.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist-Backend\PharmAssist.Repository\obj\Release\net8.0\PharmAssist.Repository.AssemblyInfoInputs.cache
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist-Backend\PharmAssist.Repository\obj\Release\net8.0\PharmAssist.Repository.AssemblyInfo.cs
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist-Backend\PharmAssist.Repository\obj\Release\net8.0\PharmAssist.Repository.csproj.CoreCompileInputs.cache
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist-Backend\PharmAssist.Repository\obj\Release\net8.0\PharmAssist.Repository.sourcelink.json
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist-Backend\PharmAssist.Repository\obj\Release\net8.0\PharmAss.CD529E3E.Up2Date
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist-Backend\PharmAssist.Repository\obj\Release\net8.0\PharmAssist.Repository.dll
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist-Backend\PharmAssist.Repository\obj\Release\net8.0\refint\PharmAssist.Repository.dll
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist-Backend\PharmAssist.Repository\obj\Release\net8.0\PharmAssist.Repository.pdb
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist-Backend\PharmAssist.Repository\obj\Release\net8.0\PharmAssist.Repository.genruntimeconfig.cache
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist-Backend\PharmAssist.Repository\obj\Release\net8.0\ref\PharmAssist.Repository.dll

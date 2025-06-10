@@ -1,0 +1,113 @@
+[33mcommit 4f61565794afffa0d7115c5dfabb335ab8ad37f5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Kerolos Raed <138964433+keroraed@users.noreply.github.com>
+Date:   Thu Jun 5 16:06:50 2025 +0200
+
+    Payment with Stripe
+
+[33mcommit cd6a9490d85f46d59d35f36b0bb8f6001c56eb27[m
+Author: Kerolos Raed <138964433+keroraed@users.noreply.github.com>
+Date:   Thu Jun 5 04:52:32 2025 +0200
+
+    Admin Dashboard
+
+[33mcommit 3afba3931986c1487a4ee610d65588b60359b02a[m
+Author: Basant Kamal <basantkamalsalah@gmail.com>
+Date:   Wed Jun 4 15:51:41 2025 +0300
+
+    Latest updates
+
+[33mcommit 82a6aa2ee93bc580305d9babdaffba02c0650aea[m
+Author: Kerolos Raed <138964433+keroraed@users.noreply.github.com>
+Date:   Mon Jun 2 16:10:28 2025 +0300
+
+    Redis Connection
+
+[33mcommit 36924b83451e627c560ce18f33aa7069069bc14b[m
+Author: Kerolos Raed <138964433+keroraed@users.noreply.github.com>
+Date:   Mon Jun 2 13:09:47 2025 +0300
+
+    Adding Meds and Conflicts
+
+[33mcommit cd10e64bb83d395659aa29152a13e276d5d94cbc[m
+Author: BasantKamal <basantkamalsalah@gmail.com>
+Date:   Mon Jun 2 01:57:47 2025 +0300
+
+    Resend otp
+
+[33mcommit 8594449f5f6babeea08bf81af55510ffc5ae6a78[m
+Author: BasantKamal <basantkamalsalah@gmail.com>
+Date:   Sun Jun 1 16:17:26 2025 +0300
+
+    Orders
+
+[33mcommit 654c5cf9bdda9d37b2e481bf0a121995905c08ab[m
+Author: BasantKamal <basantkamalsalah@gmail.com>
+Date:   Thu May 22 14:30:24 2025 +0300
+
+    Products And Edit Profile
+
+[33mcommit 3aa3327280723980da7eb9f089c5d8cb81f3682e[m
+Author: BasantKamal <basantkamalsalah@gmail.com>
+Date:   Wed Apr 30 20:47:43 2025 +0300
+
+    Questions and Answers
+
+[33mcommit 2f8f56aef62288b5382617940c9c4d954b130339[m
+Author: BasantKamal <basantkamalsalah@gmail.com>
+Date:   Wed Apr 23 17:48:20 2025 +0200
+
+    Resolving conflicts-No update
+
+[33mcommit cb291557272ccdcae64b6aafdac2fcbb0388e578[m
+Author: BasantKamal <basantkamalsalah@gmail.com>
+Date:   Mon Apr 21 18:24:15 2025 +0200
+
+    Forgot password
+
+[33mcommit 264912fa974227de37cf47f48f23880d7a7d2c8c[m
+Author: Kerolos Raed <keroraed123@gmail.com>
+Date:   Mon Apr 21 16:03:49 2025 +0200
+
+    admin seeding
+
+[33mcommit 14599530808fb385138f0a4d1644945d27ed354e[m
+Author: BasantKamal <basantkamalsalah@gmail.com>
+Date:   Thu Apr 17 21:45:43 2025 +0200
+
+    Updated otp
+
+[33mcommit e66f0b14c605cfd3f1ab52489c44f946abe31fe6[m
+Author: Kerolos Raed <keroraed123@gmail.com>
+Date:   Sun Apr 13 20:09:22 2025 +0200
+
+    Save OTP that been sent from register
+
+[33mcommit 128cff263cdbd3290203ce08803293bb1f05e3de[m
+Author: Kerolos Raed <keroraed123@gmail.com>
+Date:   Sat Apr 12 17:43:01 2025 +0200
+
+    Saving OTP into DB
+
+[33mcommit 6e4c2587f6a914f2bc3919dafc8d348c4372a152[m
+Author: BasantKamal <basantkamalsalah@gmail.com>
+Date:   Fri Apr 11 20:35:15 2025 +0200
+
+    OTP Validtaion
+
+[33mcommit 91fa7367320fda139c80d1afd3f051cf39f7541e[m
+Author: BasantKamal <basantkamalsalah@gmail.com>
+Date:   Tue Mar 18 00:07:25 2025 +0200
+
+    Adding methods in Accounts Controller
+
+[33mcommit 7b090cb1d5825bba4344352b64eef6d0fb8495dc[m
+Author: BasantKamal <basantkamalsalah@gmail.com>
+Date:   Tue Mar 18 00:05:15 2025 +0200
+
+    Exclude .vs directory
+
+[33mcommit 2285f9941ac9230c763d48c7ca6ea8a71d1e0247[m
+Author: BasantKamal <basantkamalsalah@gmail.com>
+Date:   Thu Mar 13 00:57:22 2025 +0200
+
+    first commit
