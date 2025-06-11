@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PharmAssist.Repository
-build_property.ProjectDir = D:\Project\PharmAssist.Repository\
+build_property.ProjectDir = D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist-Backend\PharmAssist.Repository\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
