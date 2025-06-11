@@ -58,3 +58,18 @@ D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist-Backend\Phar
 D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist-Backend\PharmAssist.Core\obj\Release\net8.0\PharmAssist.Core.pdb
 D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist-Backend\PharmAssist.Core\obj\Release\net8.0\PharmAssist.Core.genruntimeconfig.cache
 D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist-Backend\PharmAssist.Core\obj\Release\net8.0\ref\PharmAssist.Core.dll
+D:\Project\PharmAssist.Core\bin\Release\net8.0\PharmAssist.Core.deps.json
+D:\Project\PharmAssist.Core\bin\Release\net8.0\PharmAssist.Core.runtimeconfig.json
+D:\Project\PharmAssist.Core\bin\Release\net8.0\PharmAssist.Core.dll
+D:\Project\PharmAssist.Core\bin\Release\net8.0\PharmAssist.Core.pdb
+D:\Project\PharmAssist.Core\obj\Release\net8.0\PharmAssist.Core.csproj.AssemblyReference.cache
+D:\Project\PharmAssist.Core\obj\Release\net8.0\PharmAssist.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\PharmAssist.Core\obj\Release\net8.0\PharmAssist.Core.AssemblyInfoInputs.cache
+D:\Project\PharmAssist.Core\obj\Release\net8.0\PharmAssist.Core.AssemblyInfo.cs
+D:\Project\PharmAssist.Core\obj\Release\net8.0\PharmAssist.Core.csproj.CoreCompileInputs.cache
+D:\Project\PharmAssist.Core\obj\Release\net8.0\PharmAssist.Core.sourcelink.json
+D:\Project\PharmAssist.Core\obj\Release\net8.0\PharmAssist.Core.dll
+D:\Project\PharmAssist.Core\obj\Release\net8.0\refint\PharmAssist.Core.dll
+D:\Project\PharmAssist.Core\obj\Release\net8.0\PharmAssist.Core.pdb
+D:\Project\PharmAssist.Core\obj\Release\net8.0\PharmAssist.Core.genruntimeconfig.cache
+D:\Project\PharmAssist.Core\obj\Release\net8.0\ref\PharmAssist.Core.dll

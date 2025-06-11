@@ -4710,19 +4710,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hp\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\PharmAssist.csproj",
+      "projectUniqueName": "D:\\Project\\PharmAssist\\PharmAssist.csproj",
       "projectName": "PharmAssist",
-      "projectPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\PharmAssist.csproj",
-      "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-      "outputPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\obj\\",
+      "projectPath": "D:\\Project\\PharmAssist\\PharmAssist.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "D:\\Project\\PharmAssist\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4730,21 +4730,20 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj": {
-              "projectPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj"
+            "D:\\Project\\PharmAssist.Core\\PharmAssist.Core.csproj": {
+              "projectPath": "D:\\Project\\PharmAssist.Core\\PharmAssist.Core.csproj"
             },
-            "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj": {
-              "projectPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj"
+            "D:\\Project\\PharmAssist.Repository\\PharmAssist.Repository.csproj": {
+              "projectPath": "D:\\Project\\PharmAssist.Repository\\PharmAssist.Repository.csproj"
             },
-            "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Service\\PharmAssist.Service.csproj": {
-              "projectPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist.Service\\PharmAssist.Service.csproj"
+            "D:\\Project\\PharmAssist.Service\\PharmAssist.Service.csproj": {
+              "projectPath": "D:\\Project\\PharmAssist.Service\\PharmAssist.Service.csproj"
             }
           }
         }
@@ -4753,11 +4752,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -4822,7 +4816,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

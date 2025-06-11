@@ -1,4 +1,4 @@
-﻿
+﻿using PharmAssist.Core.Entities.Order_Aggregation;
 
 namespace PharmAssist.Core.Entities.Order_Aggregation
 {
@@ -22,6 +22,5 @@ namespace PharmAssist.Core.Entities.Order_Aggregation
 		public ICollection<OrderItem> Items { get; set; }=new HashSet<OrderItem>();
 		public decimal SubTotal { get; set; } //price of product * quantity
 		public decimal GetTotal => SubTotal + DeliveryMethod.Cost;  //not mapped in db
-		public string PaymentIntentId { get; set; }=string .Empty;
-    }
+	}
 }

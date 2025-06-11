@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SMT+14NGMX31LlKebruNvZ18K50H8xJvPM8Q0rJE8uA=",
+  "Hash": "csXkwsiCDN3N4Wc91kprkNBz/JkfYWBge30ydNWPvJQ=",
   "Source": "PharmAssist",
   "BasePath": "_content/PharmAssist",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PharmAssist\\wwwroot",
       "Source": "PharmAssist",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\admin-dashboard.html",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\admin-dashboard.html",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "admin-dashboard.html",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\admin-dashboard.html"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\abilify.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\abilify.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/abilify.png",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\abilify.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\actifed.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\actifed.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/actifed.png",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\actifed.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\aerius.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\aerius.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/aerius.png",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\aerius.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\aldomet.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\aldomet.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/aldomet.png",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\aldomet.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\allergex.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\allergex.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/allergex.png",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\allergex.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\alphintern.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\alphintern.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/alphintern.png",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\alphintern.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\amoclan.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\amoclan.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/amoclan.png",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\amoclan.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\amrizole.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\amrizole.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/amrizole.png",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\amrizole.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\antinal.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\antinal.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/antinal.png",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\antinal.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\antistin.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\antistin.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/antistin.png",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\antistin.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\aspocid.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\aspocid.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/aspocid.png",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\aspocid.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\ativan.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\ativan.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/ativan.png",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\ativan.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\augmentin.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\augmentin.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/augmentin.png",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\augmentin.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\betadine.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\betadine.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/betadine.png",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\betadine.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\bisolvan.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\bisolvan.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/bisolvan.png",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\bisolvan.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\bronchicum.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\bronchicum.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/bronchicum.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\bronchicum.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\brufen.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\brufen.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/brufen.png",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\brufen.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\buscopan.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\buscopan.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/buscopan.png",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\buscopan.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\calciumD.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\calciumD.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/calciumD.png",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\calciumD.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\canesten.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\canesten.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/canesten.png",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\canesten.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\cardixin.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\cardixin.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/cardixin.png",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\cardixin.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\carvid.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\carvid.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/carvid.png",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\carvid.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\catafast.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\catafast.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/catafast.png",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\catafast.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\cataflam.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\cataflam.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/cataflam.png",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\cataflam.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\cetafen.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\cetafen.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/cetafen.png",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\cetafen.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\cialis.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\cialis.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/cialis.png",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\cialis.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\cipro.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\cipro.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/cipro.png",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\cipro.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\claforan.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\claforan.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/claforan.png",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\claforan.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\claridar.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\claridar.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/claridar.png",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\claridar.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\claritine.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\claritine.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/claritine.png",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\claritine.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\cleocin-t.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\cleocin-t.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/cleocin-t.png",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\cleocin-t.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\clexane.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\clexane.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/clexane.png",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\clexane.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\comtrex.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\comtrex.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/comtrex.png",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\comtrex.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\concor.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\concor.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/concor.png",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\concor.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\congestal.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\congestal.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/congestal.png",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\congestal.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\crestor.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\crestor.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/crestor.png",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\crestor.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\daflon.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\daflon.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/daflon.png",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\daflon.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\daktarin.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\daktarin.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/daktarin.png",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\daktarin.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\depakine-chrono.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\depakine-chrono.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/depakine-chrono.png",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\depakine-chrono.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\dermovate.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\dermovate.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/dermovate.png",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\dermovate.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\dostinex.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\dostinex.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/dostinex.png",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\dostinex.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\euthyrox.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\euthyrox.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/euthyrox.png",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\euthyrox.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\ezz3.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\ezz3.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/ezz3.png",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\ezz3.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\fefol.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\fefol.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/fefol.png",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\fefol.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\flagyl.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\flagyl.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/flagyl.png",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\flagyl.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\fucidin.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\fucidin.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/fucidin.png",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\fucidin.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\glucophage.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\glucophage.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/glucophage.png",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\glucophage.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\haemojet.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\haemojet.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/haemojet.png",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\haemojet.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\histazine.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\histazine.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/histazine.png",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\histazine.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\imuran.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\imuran.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/imuran.png",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\imuran.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\inderal.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\inderal.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/inderal.png",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\inderal.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\januvia.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\januvia.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/januvia.png",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\januvia.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\kapect.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\kapect.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/kapect.png",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\kapect.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\keflex.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\keflex.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/keflex.png",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\keflex.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\lamisil.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\lamisil.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/lamisil.png",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\lamisil.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\lantus.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\lantus.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/lantus.png",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\lantus.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\laxeol.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\laxeol.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/laxeol.png",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\laxeol.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\librax.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\librax.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/librax.png",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\librax.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\lipitor.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\lipitor.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/lipitor.png",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\lipitor.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\macrofuran.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\macrofuran.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/macrofuran.png",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\macrofuran.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\marevan.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\marevan.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/marevan.png",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\marevan.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\maxilase.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\maxilase.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/maxilase.png",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\maxilase.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\minoxidil.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\minoxidil.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/minoxidil.png",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\minoxidil.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\mixtard.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\mixtard.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/mixtard.png",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\mixtard.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\motinorm.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\motinorm.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/motinorm.png",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\motinorm.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\moxipen.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\moxipen.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/moxipen.png",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\moxipen.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\mucinex.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\mucinex.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/mucinex.png",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\mucinex.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\mucophylline.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\mucophylline.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/mucophylline.png",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\mucophylline.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\mucosol.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\mucosol.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/mucosol.png",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\mucosol.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\neurontin.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\neurontin.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/neurontin.png",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\neurontin.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\nexavar.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\nexavar.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/nexavar.png",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\nexavar.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\nexium.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\nexium.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/nexium.png",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\nexium.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\normolax.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\normolax.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/normolax.png",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\normolax.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\omega3.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\omega3.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/omega3.png",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\omega3.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\otrivin.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\otrivin.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/otrivin.png",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\otrivin.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\panadol-extra.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\panadol-extra.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/panadol-extra.png",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\panadol-extra.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\pantoloc.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\pantoloc.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/pantoloc.png",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\pantoloc.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\primperan.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\primperan.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/primperan.png",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\primperan.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\proscar.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\proscar.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/proscar.png",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\proscar.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\ranitidin.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\ranitidin.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/ranitidin.png",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\ranitidin.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\renitec.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\renitec.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/renitec.png",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\renitec.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\seretide.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\seretide.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/seretide.png",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\seretide.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\sibelium.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\sibelium.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/sibelium.png",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\sibelium.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\sinopril.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\sinopril.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/sinopril.png",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\sinopril.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\strepsils.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\strepsils.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/strepsils.png",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\strepsils.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\symbicort.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\symbicort.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/symbicort.png",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\symbicort.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\tavanic.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\tavanic.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/tavanic.png",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\tavanic.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\telfast.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\telfast.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/telfast.png",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\telfast.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\tenormin.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\tenormin.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/tenormin.png",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\tenormin.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\topamax.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\topamax.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/topamax.png",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\topamax.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\tryptizol.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\tryptizol.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/tryptizol.png",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\tryptizol.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\ventolin.pn.jpg",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\ventolin.pn.jpg",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/ventolin.pn.jpg",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\ventolin.pn.jpg"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\vibramycin.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\vibramycin.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/vibramycin.png",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\vibramycin.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\vitaminc.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\vitaminc.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/vitaminc.png",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\vitaminc.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\voltaren.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\voltaren.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/voltaren.png",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\voltaren.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\xanax.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\xanax.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/xanax.png",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\xanax.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\zentacal.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\zentacal.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/zentacal.png",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\zentacal.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\zocor.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\zocor.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/zocor.png",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\zocor.png"
     },
     {
-      "Identity": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\Images\\Products\\zyrtec.png",
+      "Identity": "D:\\Project\\PharmAssist\\wwwroot\\Images\\Products\\zyrtec.png",
       "SourceId": "PharmAssist",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist-Backend\\PharmAssist\\wwwroot\\",
+      "ContentRoot": "D:\\Project\\PharmAssist\\wwwroot\\",
       "BasePath": "_content/PharmAssist",
       "RelativePath": "Images/Products/zyrtec.png",
       "AssetKind": "All",

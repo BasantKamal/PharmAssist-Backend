@@ -40,6 +40,17 @@ namespace PharmAssist.Controllers
 
 		}
 
+		[HttpGet("search")]
+		public async Task<ActionResult<IReadOnlyList<ProductToReturnDTO>>> SearchProducts([FromQuery] SearchProductsParam searchParams)
+		{
+			var spec = new ProductSearchSpecs(searchParams);
+			var products = await _unitOfWork.Repository<Product>().GetAllWithSpecAsync(spec);
+			var mappedProducts = _mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDTO>>(products);
+
+			// Return all products directly without pagination
+			return Ok(mappedProducts);
+		}
+
 		[HttpGet("{id}")]
 		public async Task<ActionResult<Product>> GetProductById(int id)
 		{

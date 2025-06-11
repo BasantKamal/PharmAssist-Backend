@@ -1,5 +1,4 @@
-﻿
-using PharmAssist.Core.Entities.Order_Aggregation;
+﻿using PharmAssist.Core.Entities.Order_Aggregation;
 
 namespace PharmAssist.APIs.DTOs
 {
@@ -15,6 +14,5 @@ namespace PharmAssist.APIs.DTOs
 		public ICollection<OrderItemDTO> Items { get; set; } = new HashSet<OrderItemDTO>();
 		public decimal SubTotal { get; set; } 
 		public decimal Total { get; set; }
-		public string PaymentIntentId { get; set; }
 	}
 }

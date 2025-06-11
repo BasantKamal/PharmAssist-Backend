@@ -13,10 +13,11 @@ namespace PharmAssist.DTOs
         public decimal SubTotal { get; set; }
         public decimal Total { get; set; }
         public int ItemsCount { get; set; }
-        public string PaymentIntentId { get; set; }
-    }
+		public string PaymentIntentId { get; set; }
 
-    public class AdminOrderDetailDTO : AdminOrderDTO
+	}
+
+	public class AdminOrderDetailDTO : AdminOrderDTO
     {
         public AddressDTO ShippingAddress { get; set; }
         public IEnumerable<AdminOrderItemDTO> Items { get; set; }
@@ -46,4 +47,4 @@ namespace PharmAssist.DTOs
     {
         public OrderStatus Status { get; set; }
     }
-} 
+}
