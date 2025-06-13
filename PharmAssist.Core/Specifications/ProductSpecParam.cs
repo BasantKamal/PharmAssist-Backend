@@ -6,7 +6,7 @@ namespace PharmAssist.Core.Specifications
 	{
 		public string? Sort { get; set; }
 
-		private int pageSize = 5;
+		private int pageSize = 10;
 
 		public int PageSize
 		{

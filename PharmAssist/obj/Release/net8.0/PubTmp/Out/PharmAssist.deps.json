@@ -694,7 +694,14 @@
           }
         }
       },
-      "System.Formats.Asn1/8.0.2": {},
+      "System.Formats.Asn1/8.0.2": {
+        "runtime": {
+          "lib/net8.0/System.Formats.Asn1.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1325.6609"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.1.2": {
         "dependencies": {
           "Microsoft.IdentityModel.JsonWebTokens": "7.1.2",
@@ -841,10 +848,7 @@
           "StackExchange.Redis": "2.8.37"
         },
         "runtime": {
-          "PharmAssist.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "PharmAssist.Core.dll": {}
         }
       },
       "PharmAssist.Repository/1.0.0": {
@@ -859,10 +863,7 @@
           "StackExchange.Redis": "2.8.37"
         },
         "runtime": {
-          "PharmAssist.Repository.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "PharmAssist.Repository.dll": {}
         }
       },
       "PharmAssist.Service/1.0.0": {
@@ -878,10 +879,7 @@
           "StackExchange.Redis": "2.8.37"
         },
         "runtime": {
-          "PharmAssist.Service.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "PharmAssist.Service.dll": {}
         }
       }
     }

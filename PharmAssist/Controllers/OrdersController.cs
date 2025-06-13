@@ -30,7 +30,7 @@ namespace PharmAssist.APIs.Controllers
         //create order
         [HttpPost]
 		[Authorize]
-		public async Task<ActionResult<Order>> CreateOrder(OrderDTO orderDTO)
+		public async Task<ActionResult<OrderToReturnDTO>> CreateOrder(OrderDTO orderDTO)
 		{
 			var buyerEmail = User.FindFirstValue(ClaimTypes.Email);
 			var mappedAddress=_mapper.Map<AddressDTO,Address>(orderDTO.ShippingAddress);

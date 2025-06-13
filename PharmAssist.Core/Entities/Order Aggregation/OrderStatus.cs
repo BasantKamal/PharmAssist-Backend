@@ -14,6 +14,8 @@ namespace PharmAssist.Core.Entities.Order_Aggregation
 		[EnumMember(Value = "Payment Received")]
 		PaymentReceived,
 		[EnumMember(Value = "Payment Failed")]
-		PaymentFailed
+		PaymentFailed,
+		[EnumMember(Value = "Delivered")]
+		Delivered
 	}
 }

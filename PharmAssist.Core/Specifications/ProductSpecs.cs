@@ -32,7 +32,7 @@ namespace PharmAssist.Core.Specifications
             }
             //products = 100
             //page Size = 10
-            //page index = 5
+            //page index = 10
 
             //SKIP => 40 =10 * 4
             //TAKE => 10

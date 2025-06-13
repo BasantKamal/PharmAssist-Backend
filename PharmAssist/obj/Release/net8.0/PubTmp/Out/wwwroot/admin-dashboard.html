@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PharmAssist Admin Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --success-color: #27ae60;
+            --warning-color: #f39c12;
+            --danger-color: #e74c3c;
+            --sidebar-width: 250px;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: var(--sidebar-width);
+            background: linear-gradient(135deg, var(--primary-color), #34495e);
+            color: white;
+            z-index: 1000;
+            transition: all 0.3s;
+        }
+
+        .sidebar .nav-link {
+            color: #bdc3c7;
+            padding: 15px 20px;
+            border-radius: 0;
+            transition: all 0.3s;
+        }
+
+        .sidebar .nav-link:hover,
+        .sidebar .nav-link.active {
+            color: white;
+            background-color: rgba(255, 255, 255, 0.1);
+            transform: translateX(5px);
+        }
+
+        .main-content {
+            margin-left: var(--sidebar-width);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .stats-card {
+            background: linear-gradient(135deg, var(--secondary-color), #5dade2);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+
+        .stats-card.success {
+            background: linear-gradient(135deg, var(--success-color), #58d68d);
+        }
+
+        .stats-card.warning {
+            background: linear-gradient(135deg, var(--warning-color), #f7dc6f);
+        }
+
+        .stats-card.danger {
+            background: linear-gradient(135deg, var(--danger-color), #ec7063);
+        }
+
+        .content-section {
+            display: none;
+        }
+
+        .content-section.active {
+            display: block;
+        }
+
+        .table {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .btn-custom {
+            border-radius: 25px;
+            padding: 8px 20px;
+            font-weight: 500;
+        }
+
+        .status-badge {
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: 500;
+        }
+
+        .status-pending {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+
+        .status-completed {
+            background-color: #d1ecf1;
+            color: #0c5460;
+        }
+
+
+
+        .header-section {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 400px;
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="text-center py-4">
+            <h4><i class="fas fa-pills me-2"></i>PharmAssist</h4>
+            <small>Admin Dashboard</small>
+        </div>
+        <nav class="nav flex-column">
+            <a class="nav-link active" href="#" data-section="dashboard">
+                <i class="fas fa-tachometer-alt me-2"></i>Dashboard
+            </a>
+            <a class="nav-link" href="#" data-section="users">
+                <i class="fas fa-users me-2"></i>Users
+            </a>
+            <a class="nav-link" href="#" data-section="products">
+                <i class="fas fa-capsules me-2"></i>Products
+            </a>
+            <a class="nav-link" href="#" data-section="orders">
+                <i class="fas fa-shopping-cart me-2"></i>Orders
+            </a>
+            <a class="nav-link" href="#" data-section="settings">
+                <i class="fas fa-cog me-2"></i>Settings
+            </a>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Header -->
+        <div class="header-section">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h2>Welcome to Admin Dashboard</h2>
+                    <p class="text-muted mb-0">Manage your PharmAssist platform</p>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-custom me-2" onclick="refreshData()">
+                        <i class="fas fa-sync-alt me-1"></i>Refresh
+                    </button>
+                    <button class="btn btn-secondary btn-custom" onclick="logout()">
+                        <i class="fas fa-sign-out-alt me-1"></i>Logout
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dashboard Section -->
+        <div id="dashboard" class="content-section active">
+            <!-- Stats Cards -->
+            <div class="row mb-4">
+                <div class="col-md-3">
+                    <div class="stats-card">
+                        <h3 id="totalUsers">-</h3>
+                        <p>Total Users</p>
+                        <i class="fas fa-users fa-2x opacity-50"></i>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stats-card success">
+                        <h3 id="totalProducts">-</h3>
+                        <p>Total Products</p>
+                        <i class="fas fa-capsules fa-2x opacity-50"></i>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stats-card warning">
+                        <h3 id="totalOrders">-</h3>
+                        <p>Total Orders</p>
+                        <i class="fas fa-shopping-cart fa-2x opacity-50"></i>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stats-card danger">
+                        <h3 id="totalRevenue">-</h3>
+                        <p>Total Revenue</p>
+                        <i class="fas fa-dollar-sign fa-2x opacity-50"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Charts Row -->
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <div class="chart-container">
+                        <h5>Order Status Distribution</h5>
+                        <canvas id="orderStatusChart"></canvas>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="chart-container">
+                        <h5>Monthly Revenue</h5>
+                        <canvas id="revenueChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent Orders -->
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">Recent Orders</h5>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Order ID</th>
+                                    <th>Customer</th>
+                                    <th>Date</th>
+                                    <th>Status</th>
+                                    <th>Total</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="recentOrdersTable">
+                                <tr>
+                                    <td colspan="6" class="text-center">Loading...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Users Section -->
+        <div id="users" class="content-section">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">User Management</h5>
+                    <button class="btn btn-primary btn-custom" onclick="loadUsers()">
+                        <i class="fas fa-sync-alt me-1"></i>Refresh Users
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Phone</th>
+                                    <th>Roles</th>
+                                    <th>Status</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="usersTable">
+                                <tr>
+                                    <td colspan="7" class="text-center">Loading...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Products Section -->
+        <div id="products" class="content-section">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">Product Management</h5>
+                    <button class="btn btn-success btn-custom" onclick="showCreateProductModal()">
+                        <i class="fas fa-plus me-1"></i>Add Product
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Price</th>
+                                    <th>Active Ingredient</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="productsTable">
+                                <tr>
+                                    <td colspan="5" class="text-center">Loading...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Orders Section -->
+        <div id="orders" class="content-section">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">Order Management</h5>
+                    <div>
+                        <select class="form-select d-inline-block w-auto me-2" id="orderStatusFilter">
+                            <option value="">All Orders</option>
+                            <option value="0">Pending</option>
+                            <option value="1">Payment Received</option>
+                            <option value="2">Payment Failed</option>
+                        </select>
+                        <button class="btn btn-primary btn-custom" onclick="loadOrders()">
+                            <i class="fas fa-sync-alt me-1"></i>Refresh
+                        </button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Order ID</th>
+                                    <th>Customer</th>
+                                    <th>Date</th>
+                                    <th>Status</th>
+                                    <th>Items</th>
+                                    <th>Total</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="ordersTable">
+                                <tr>
+                                    <td colspan="7" class="text-center">Loading...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Settings Section -->
+        <div id="settings" class="content-section">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">System Settings</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6>System Information</h6>
+                            <table class="table table-sm">
+                                <tr>
+                                    <td>System Version:</td>
+                                    <td id="systemVersion">-</td>
+                                </tr>
+                                <tr>
+                                    <td>Database Status:</td>
+                                    <td id="databaseStatus">-</td>
+                                </tr>
+                                <tr>
+                                    <td>Last Backup:</td>
+                                    <td id="lastBackup">-</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Quick Actions</h6>
+                            <button class="btn btn-outline-primary btn-custom me-2 mb-2">Backup Database</button>
+                            <button class="btn btn-outline-warning btn-custom me-2 mb-2">Clear Cache</button>
+                            <button class="btn btn-outline-info btn-custom me-2 mb-2">Export Data</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Modal -->
+    <div class="modal fade" id="loadingModal" tabindex="-1">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <p class="mt-2">Loading...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.min.js"></script>
+    
+    <script>
+        // Configuration
+        const API_BASE_URL = '/api/admin';
+        let authToken = localStorage.getItem('adminToken');
+
+        // Check if user is logged in
+        if (!authToken) {
+            // Redirect to login or show login modal
+            // For now, we'll use a simple prompt
+            authToken = prompt('Please enter your JWT token:');
+            if (authToken) {
+                localStorage.setItem('adminToken', authToken);
+            }
+        }
+
+        // Navigation
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const section = e.target.closest('.nav-link').dataset.section;
+                showSection(section);
+                
+                // Update active nav
+                document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+                e.target.closest('.nav-link').classList.add('active');
+            });
+        });
+
+        function showSection(sectionId) {
+            document.querySelectorAll('.content-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(sectionId).classList.add('active');
+
+            // Load section data
+            switch(sectionId) {
+                case 'dashboard':
+                    loadDashboardData();
+                    break;
+                case 'users':
+                    loadUsers();
+                    break;
+                case 'products':
+                    loadProducts();
+                    break;
+                case 'orders':
+                    loadOrders();
+                    break;
+                case 'settings':
+                    loadSystemInfo();
+                    break;
+            }
+        }
+
+        // API Helper
+        async function apiCall(endpoint, options = {}) {
+            const defaultOptions = {
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${authToken}`
+                }
+            };
+
+            try {
+                const response = await fetch(API_BASE_URL + endpoint, {
+                    ...defaultOptions,
+                    ...options
+                });
+
+                if (response.status === 401) {
+                    // Token expired or invalid
+                    localStorage.removeItem('adminToken');
+                    alert('Session expired. Please refresh and login again.');
+                    location.reload();
+                    return;
+                }
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                return await response.json();
+            } catch (error) {
+                console.error('API call failed:', error);
+                throw error;
+            }
+        }
+
+        // Dashboard Functions
+        async function loadDashboardData() {
+            try {
+                const stats = await apiCall('/dashboard-stats');
+                
+                document.getElementById('totalUsers').textContent = stats.totalUsers;
+                document.getElementById('totalProducts').textContent = stats.totalProducts;
+                document.getElementById('totalOrders').textContent = stats.totalOrders;
+                document.getElementById('totalRevenue').textContent = `$${stats.totalRevenue.toFixed(2)}`;
+
+                // Load recent orders
+                loadRecentOrders(stats.recentOrders);
+                
+                // Initialize charts
+                initializeCharts(stats);
+            } catch (error) {
+                console.error('Failed to load dashboard data:', error);
+                showError('Failed to load dashboard data');
+            }
+        }
+
+        function loadRecentOrders(orders) {
+            const tbody = document.getElementById('recentOrdersTable');
+            if (!orders || orders.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="6" class="text-center">No recent orders</td></tr>';
+                return;
+            }
+
+            tbody.innerHTML = orders.map(order => `
+                <tr>
+                    <td>#${order.id}</td>
+                    <td>${order.buyerEmail}</td>
+                    <td>${new Date(order.orderDate).toLocaleDateString()}</td>
+                    <td><span class="status-badge status-${getStatusClass(order.status)}">${getStatusText(order.status)}</span></td>
+                    <td>$${order.total.toFixed(2)}</td>
+                    <td>
+                        <button class="btn btn-sm btn-outline-primary" onclick="viewOrder(${order.id})">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        // Users Functions
+        async function loadUsers() {
+            try {
+                const users = await apiCall('/users');
+                const tbody = document.getElementById('usersTable');
+                
+                if (!users || users.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="7" class="text-center">No users found</td></tr>';
+                    return;
+                }
+
+                tbody.innerHTML = users.map(user => `
+                    <tr>
+                        <td>${user.id.substring(0, 8)}...</td>
+                        <td>${user.displayName || 'N/A'}</td>
+                        <td>${user.email}</td>
+                        <td>${user.phoneNumber || 'N/A'}</td>
+                        <td>${user.roles.join(', ')}</td>
+                        <td>
+                            <span class="status-badge ${user.emailConfirmed ? 'status-completed' : 'status-pending'}">
+                                ${user.emailConfirmed ? 'Verified' : 'Pending'}
+                            </span>
+                        </td>
+                        <td>
+                            <button class="btn btn-sm btn-outline-primary me-1" onclick="viewUser('${user.id}')">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                            <button class="btn btn-sm btn-outline-danger" onclick="deleteUser('${user.id}')">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                `).join('');
+            } catch (error) {
+                console.error('Failed to load users:', error);
+                showError('Failed to load users');
+            }
+        }
+
+        // Products Functions
+        async function loadProducts() {
+            try {
+                const products = await apiCall('/products');
+                const tbody = document.getElementById('productsTable');
+                
+                if (!products || products.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="5" class="text-center">No products found</td></tr>';
+                    return;
+                }
+
+                tbody.innerHTML = products.map(product => `
+                    <tr>
+                        <td>${product.id}</td>
+                        <td>${product.name}</td>
+                        <td>$${product.price.toFixed(2)}</td>
+                        <td>${product.activeIngredient}</td>
+                        <td>
+                            <button class="btn btn-sm btn-outline-primary me-1" onclick="editProduct(${product.id})">
+                                <i class="fas fa-edit"></i>
+                            </button>
+                            <button class="btn btn-sm btn-outline-danger" onclick="deleteProduct(${product.id})">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                `).join('');
+            } catch (error) {
+                console.error('Failed to load products:', error);
+                showError('Failed to load products');
+            }
+        }
+
+        // Orders Functions
+        async function loadOrders() {
+            try {
+                const statusFilter = document.getElementById('orderStatusFilter').value;
+                let endpoint = '/orders';
+                if (statusFilter) {
+                    endpoint += `?status=${statusFilter}`;
+                }
+                
+                const orders = await apiCall(endpoint);
+                const tbody = document.getElementById('ordersTable');
+                
+                if (!orders || orders.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="7" class="text-center">No orders found</td></tr>';
+                    return;
+                }
+
+                tbody.innerHTML = orders.map(order => `
+                    <tr>
+                        <td>#${order.id}</td>
+                        <td>${order.buyerEmail}</td>
+                        <td>${new Date(order.orderDate).toLocaleDateString()}</td>
+                        <td><span class="status-badge status-${getStatusClass(order.status)}">${getStatusText(order.status)}</span></td>
+                        <td>${order.itemsCount}</td>
+                        <td>$${order.total.toFixed(2)}</td>
+                        <td>
+                            <button class="btn btn-sm btn-outline-primary me-1" onclick="viewOrder(${order.id})">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                            <button class="btn btn-sm btn-outline-warning" onclick="updateOrderStatus(${order.id})">
+                                <i class="fas fa-edit"></i>
+                            </button>
+                        </td>
+                    </tr>
+                `).join('');
+            } catch (error) {
+                console.error('Failed to load orders:', error);
+                showError('Failed to load orders');
+            }
+        }
+
+        // Settings Functions
+        async function loadSystemInfo() {
+            try {
+                const info = await apiCall('/system-info');
+                
+                document.getElementById('systemVersion').textContent = info.systemVersion;
+                document.getElementById('databaseStatus').textContent = info.databaseStatus;
+                document.getElementById('lastBackup').textContent = new Date(info.lastBackupDate).toLocaleDateString();
+            } catch (error) {
+                console.error('Failed to load system info:', error);
+                showError('Failed to load system info');
+            }
+        }
+
+        // Utility Functions
+        function getStatusText(status) {
+            const statusMap = {
+                0: 'Pending',
+                1: 'Payment Received',
+                2: 'Payment Failed'
+            };
+            return statusMap[status] || 'Unknown';
+        }
+
+        function getStatusClass(status) {
+            const classMap = {
+                0: 'pending',
+                1: 'completed',
+                2: 'danger'
+            };
+            return classMap[status] || 'pending';
+        }
+
+        function showError(message) {
+            alert('Error: ' + message);
+        }
+
+        function refreshData() {
+            const activeSection = document.querySelector('.content-section.active').id;
+            showSection(activeSection);
+        }
+
+        function logout() {
+            localStorage.removeItem('adminToken');
+            location.reload();
+        }
+
+        // Placeholder functions for actions
+        function viewUser(id) { alert('View user: ' + id); }
+        function deleteUser(id) { 
+            if (confirm('Are you sure you want to delete this user?')) {
+                // Implement delete user
+            }
+        }
+        function editProduct(id) { alert('Edit product: ' + id); }
+        function deleteProduct(id) { 
+            if (confirm('Are you sure you want to delete this product?')) {
+                // Implement delete product
+            }
+        }
+        function showCreateProductModal() { alert('Create product modal'); }
+        function viewOrder(id) { alert('View order: ' + id); }
+        function updateOrderStatus(id) { alert('Update order status: ' + id); }
+
+        // Initialize charts
+        function initializeCharts(stats) {
+            // Order Status Chart
+            const orderCtx = document.getElementById('orderStatusChart').getContext('2d');
+            new Chart(orderCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Pending', 'Payment Received', 'Payment Failed'],
+                    datasets: [{
+                        data: [stats.pendingOrders, stats.completedOrders, stats.totalOrders - stats.pendingOrders - stats.completedOrders],
+                        backgroundColor: ['#f39c12', '#27ae60', '#e74c3c']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false
+                }
+            });
+
+            // Revenue Chart (mock data)
+            const revenueCtx = document.getElementById('revenueChart').getContext('2d');
+            new Chart(revenueCtx, {
+                type: 'line',
+                data: {
+                    labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+                    datasets: [{
+                        label: 'Revenue',
+                        data: [1200, 1900, 3000, 5000, 2000, stats.totalRevenue],
+                        borderColor: '#3498db',
+                        tension: 0.1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+        // Initialize dashboard on load
+        document.addEventListener('DOMContentLoaded', function() {
+            loadDashboardData();
+        });
+    </script>
+</body>
+</html> 

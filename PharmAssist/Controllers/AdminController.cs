@@ -22,12 +22,14 @@ namespace PharmAssist.Controllers
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
+        private readonly IConfiguration _configuration;
 
         public AdminController(
             UserManager<AppUser> userManager,
             RoleManager<IdentityRole> roleManager,
             IUnitOfWork unitOfWork,
-            IMapper mapper)
+            IMapper mapper,
+            IConfiguration configuration)
         {
             _userManager = userManager;
             _roleManager = roleManager;
@@ -49,11 +51,14 @@ namespace PharmAssist.Controllers
             
             var completedOrders = await _unitOfWork.Repository<Order>()
                 .CountAsync(o => o.Status == OrderStatus.PaymentReceived);
+            
+            var deliveredOrders = await _unitOfWork.Repository<Order>()
+                .CountAsync(o => o.Status == OrderStatus.Delivered);
 
-            // Calculate total revenue from completed orders
+            // Calculate total revenue from completed and delivered orders
             var orders = await _unitOfWork.Repository<Order>().GetAllAsync();
             var totalRevenue = orders
-                .Where(o => o.Status == OrderStatus.PaymentReceived)
+                .Where(o => o.Status == OrderStatus.PaymentReceived || o.Status == OrderStatus.Delivered)
                 .Sum(o => o.GetTotal);
 
             // Get recent orders
@@ -69,6 +74,7 @@ namespace PharmAssist.Controllers
                 TotalOrders = totalOrders,
                 PendingOrders = pendingOrders,
                 CompletedOrders = completedOrders,
+                DeliveredOrders = deliveredOrders,
                 TotalRevenue = totalRevenue,
                 RecentOrders = recentOrdersDto
             });
@@ -273,6 +279,20 @@ namespace PharmAssist.Controllers
                 return BadRequest(new ApiResponse(400, "Failed to update order status"));
 
             return Ok(new { success = true, message = "Order status updated successfully" });
+        }
+
+        #endregion
+
+        #region Configuration Diagnostics
+
+        [HttpGet("config-test")]
+        public IActionResult TestConfiguration()
+        {
+            return Ok(new { 
+                ApiBaseUrl = _configuration["ApiBaseUrl"],
+                Environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") ?? "Not Set",
+                CurrentTime = DateTime.UtcNow
+            });
         }
 
         #endregion
