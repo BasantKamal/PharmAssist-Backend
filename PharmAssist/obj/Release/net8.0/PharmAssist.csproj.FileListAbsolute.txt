@@ -809,7 +809,6 @@ D:\Project\PharmAssist\obj\Release\net8.0\PharmAssist.GeneratedMSBuildEditorConf
 D:\Project\PharmAssist\obj\Release\net8.0\PharmAssist.AssemblyInfoInputs.cache
 D:\Project\PharmAssist\obj\Release\net8.0\PharmAssist.AssemblyInfo.cs
 D:\Project\PharmAssist\obj\Release\net8.0\PharmAssist.csproj.CoreCompileInputs.cache
-D:\Project\PharmAssist\obj\Release\net8.0\PharmAssist.MvcApplicationPartsAssemblyInfo.cs
 D:\Project\PharmAssist\obj\Release\net8.0\PharmAssist.MvcApplicationPartsAssemblyInfo.cache
 D:\Project\PharmAssist\obj\Release\net8.0\PharmAssist.sourcelink.json
 D:\Project\PharmAssist\obj\Release\net8.0\staticwebassets.build.json
@@ -992,3 +991,6 @@ D:\Project\Project\PharmAssist\obj\Release\net8.0\refint\PharmAssist.dll
 D:\Project\Project\PharmAssist\obj\Release\net8.0\PharmAssist.pdb
 D:\Project\Project\PharmAssist\obj\Release\net8.0\PharmAssist.genruntimeconfig.cache
 D:\Project\Project\PharmAssist\obj\Release\net8.0\ref\PharmAssist.dll
+D:\Project\PharmAssist\obj\Release\net8.0\PharmAssist.MvcApplicationPartsAssemblyInfo.cs
+D:\Project\PharmAssist\bin\Release\net8.0\web.config
+D:\Project\PharmAssist\bin\Release\net8.0\Newtonsoft.Json.dll

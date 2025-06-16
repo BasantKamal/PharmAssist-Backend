@@ -31,7 +31,18 @@ namespace PharmAssist.Repository
             var type = typeof(TEntity).Name; // ex:product,order
             if (!_repositories.ContainsKey(type))
             {
-                var repository = new GenericRepository<TEntity>(_dbcontext);
+                IGenericRepository<TEntity> repository;
+                
+                // Special case for MedicationRecommendation to return the specific repository
+                if (type == nameof(MedicationRecommendation))
+                {
+                    repository = (IGenericRepository<TEntity>)new MedicationRecommendationRepository(_dbcontext);
+                }
+                else
+                {
+                    repository = new GenericRepository<TEntity>(_dbcontext);
+                }
+                
                 _repositories.Add(type, repository);
             }
             return _repositories[type] as IGenericRepository<TEntity>;

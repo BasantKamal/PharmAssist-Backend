@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "H1+nbG09t3h5kIBsNxU45YP4gEa98h7dNiyrx/rgUTlhnsgMD8jVykOJkaQSrzEre7T+qVPU31YaukNApVqepA==",
+  "dgSpecHash": "tbjv9DU2j8xfpw8apilfA4OjAvFAqOJd2gngGEkBLVh4FUG8ugCgT6gfuk0YG93M04NQ8hmeoAUExQqPhR8+oQ==",
   "success": true,
   "projectFilePath": "D:\\Project\\PharmAssist.Core\\PharmAssist.Core.csproj",
   "expectedPackageFiles": [
@@ -53,6 +53,7 @@
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\mimekit\\4.11.0\\mimekit.4.11.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\stackexchange.redis\\2.8.37\\stackexchange.redis.2.8.37.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.clientmodel\\1.0.0\\system.clientmodel.1.0.0.nupkg.sha512",

@@ -49,16 +49,16 @@ namespace PharmAssist.Controllers
             var pendingOrders = await _unitOfWork.Repository<Order>()
                 .CountAsync(o => o.Status == OrderStatus.Pending);
             
-            var completedOrders = await _unitOfWork.Repository<Order>()
-                .CountAsync(o => o.Status == OrderStatus.PaymentReceived);
+            var outForDeliveryOrders = await _unitOfWork.Repository<Order>()
+                .CountAsync(o => o.Status == OrderStatus.OutForDelivery);
             
             var deliveredOrders = await _unitOfWork.Repository<Order>()
                 .CountAsync(o => o.Status == OrderStatus.Delivered);
 
-            // Calculate total revenue from completed and delivered orders
+            // Calculate total revenue from out for delivery and delivered orders
             var orders = await _unitOfWork.Repository<Order>().GetAllAsync();
             var totalRevenue = orders
-                .Where(o => o.Status == OrderStatus.PaymentReceived || o.Status == OrderStatus.Delivered)
+                .Where(o => o.Status == OrderStatus.OutForDelivery || o.Status == OrderStatus.Delivered)
                 .Sum(o => o.GetTotal);
 
             // Get recent orders
@@ -73,7 +73,7 @@ namespace PharmAssist.Controllers
                 TotalProducts = totalProducts,
                 TotalOrders = totalOrders,
                 PendingOrders = pendingOrders,
-                CompletedOrders = completedOrders,
+                OutForDeliveryOrders = outForDeliveryOrders,
                 DeliveredOrders = deliveredOrders,
                 TotalRevenue = totalRevenue,
                 RecentOrders = recentOrdersDto

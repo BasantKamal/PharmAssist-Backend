@@ -1,4 +1,5 @@
 D:\Project\PharmAssist\obj\Release\net8.0\PubTmp\Out\PharmAssist.exe
+D:\Project\PharmAssist\obj\Release\net8.0\PubTmp\Out\web.config
 D:\Project\PharmAssist\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
 D:\Project\PharmAssist\obj\Release\net8.0\PubTmp\Out\appsettings.json
 D:\Project\PharmAssist\obj\Release\net8.0\PubTmp\Out\PharmAssist.dll
@@ -39,6 +40,7 @@ D:\Project\PharmAssist\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
 D:\Project\PharmAssist\obj\Release\net8.0\PubTmp\Out\Microsoft.SqlServer.Server.dll
 D:\Project\PharmAssist\obj\Release\net8.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
 D:\Project\PharmAssist\obj\Release\net8.0\PubTmp\Out\MimeKit.dll
+D:\Project\PharmAssist\obj\Release\net8.0\PubTmp\Out\Newtonsoft.Json.dll
 D:\Project\PharmAssist\obj\Release\net8.0\PubTmp\Out\Pipelines.Sockets.Unofficial.dll
 D:\Project\PharmAssist\obj\Release\net8.0\PubTmp\Out\StackExchange.Redis.dll
 D:\Project\PharmAssist\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll

@@ -70,6 +70,10 @@
               "target": "Package",
               "version": "[8.0.14, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "StackExchange.Redis": {
               "target": "Package",
               "version": "[2.8.37, )"
@@ -164,6 +168,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.14, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "StackExchange.Redis": {
               "target": "Package",
@@ -262,6 +270,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.14, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "StackExchange.Redis": {
               "target": "Package",

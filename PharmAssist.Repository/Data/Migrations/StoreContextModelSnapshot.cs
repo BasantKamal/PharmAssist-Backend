@@ -22,6 +22,124 @@ namespace PharmAssist.Repository.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("PharmAssist.Core.Entities.BasketItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ActiveIngredient")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("BasketId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PictureUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BasketId");
+
+                    b.ToTable("BasketItems");
+                });
+
+            modelBuilder.Entity("PharmAssist.Core.Entities.CustomerBasket", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Baskets");
+                });
+
+            modelBuilder.Entity("PharmAssist.Core.Entities.MedicationRecommendation", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ConflictDetails")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<double>("EffectivenessScore")
+                        .HasPrecision(3, 2)
+                        .HasColumnType("float(3)");
+
+                    b.Property<double>("FinalScore")
+                        .HasPrecision(3, 2)
+                        .HasColumnType("float(3)");
+
+                    b.Property<bool>("HasConflict")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsActive")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("RecommendationReason")
+                        .IsRequired()
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
+
+                    b.Property<double>("SafetyScore")
+                        .HasPrecision(3, 2)
+                        .HasColumnType("float(3)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasMaxLength(450)
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<double>("ValueScore")
+                        .HasPrecision(3, 2)
+                        .HasColumnType("float(3)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CreatedAt");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("UserId");
+
+                    b.HasIndex("UserId", "HasConflict");
+
+                    b.HasIndex("UserId", "IsActive");
+
+                    b.ToTable("MedicationRecommendations");
+                });
+
             modelBuilder.Entity("PharmAssist.Core.Entities.Order_Aggregation.DeliveryMethod", b =>
                 {
                     b.Property<int>("Id")
@@ -148,6 +266,28 @@ namespace PharmAssist.Repository.Data.Migrations
                     b.ToTable("Products");
                 });
 
+            modelBuilder.Entity("PharmAssist.Core.Entities.BasketItem", b =>
+                {
+                    b.HasOne("PharmAssist.Core.Entities.CustomerBasket", "Basket")
+                        .WithMany("Items")
+                        .HasForeignKey("BasketId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Basket");
+                });
+
+            modelBuilder.Entity("PharmAssist.Core.Entities.MedicationRecommendation", b =>
+                {
+                    b.HasOne("PharmAssist.Core.Entities.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("PharmAssist.Core.Entities.Order_Aggregation.Order", b =>
                 {
                     b.HasOne("PharmAssist.Core.Entities.Order_Aggregation.DeliveryMethod", "DeliveryMethod")
@@ -227,6 +367,11 @@ namespace PharmAssist.Repository.Data.Migrations
 
                     b.Navigation("Product")
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("PharmAssist.Core.Entities.CustomerBasket", b =>
+                {
+                    b.Navigation("Items");
                 });
 
             modelBuilder.Entity("PharmAssist.Core.Entities.Order_Aggregation.Order", b =>

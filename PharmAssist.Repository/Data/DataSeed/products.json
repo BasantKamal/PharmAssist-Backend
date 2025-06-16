@@ -790,5 +790,589 @@
     "PictureUrl": "images/products/tavanic.png",
     "ActiveIngredient": "Levofloxacin 500mg",
     "Conflicts": "Tendon problems, Myasthenia gravis, Heart rhythm disorders, Seizures, Taking corticosteroids or NSAIDs"
+  },
+  {
+    "Name": "Amlodipine",
+    "Description": "Used to treat high blood pressure and chest pain (angina). It works by relaxing blood vessels.",
+    "Price": 8.5,
+    "PictureUrl": "images/products/amlodipine.png",
+    "ActiveIngredient": "Amlodipine 5mg",
+    "Conflicts": "Severe liver disease, Aortic stenosis, Pregnancy, Breastfeeding, Taking strong CYP3A4 inhibitors"
+  },
+  {
+    "Name": "Plavix",
+    "Description": "Used to prevent blood clots in people who have had a recent heart attack or stroke.",
+    "Price": 280.0,
+    "PictureUrl": "images/products/plavix.png",
+    "ActiveIngredient": "Clopidogrel 75mg",
+    "Conflicts": "Active bleeding, Severe liver disease, Taking proton pump inhibitors, Recent surgery, Bleeding disorders"
+  },
+  {
+    "Name": "Zestril",
+    "Description": "Used to treat high blood pressure, heart failure, and to improve survival after heart attack.",
+    "Price": 32.5,
+    "PictureUrl": "images/products/zestril.png",
+    "ActiveIngredient": "Lisinopril 20mg",
+    "Conflicts": "Pregnancy, Angioedema history, Kidney disease, Taking potassium supplements, Diabetes with kidney problems"
+  },
+  {
+    "Name": "Omez",
+    "Description": "Used to treat stomach ulcers, gastroesophageal reflux disease (GERD), and Zollinger-Ellison syndrome.",
+    "Price": 45.75,
+    "PictureUrl": "images/products/omez.png",
+    "ActiveIngredient": "Omeprazole 20mg",
+    "Conflicts": "Taking atazanavir, nelfinavir, rilpivirine, Osteoporosis risk, Vitamin B12 deficiency, Hypomagnesemia"
+  },
+  {
+    "Name": "Amaryl",
+    "Description": "Used to control blood sugar levels in people with type 2 diabetes mellitus.",
+    "Price": 28.25,
+    "PictureUrl": "images/products/amaryl.png",
+    "ActiveIngredient": "Glimepiride 2mg",
+    "Conflicts": "Type 1 diabetes, Diabetic ketoacidosis, Severe kidney or liver disease, G6PD deficiency, Taking miconazole"
+  },
+  {
+    "Name": "Losec",
+    "Description": "Used to treat peptic ulcers, gastroesophageal reflux disease, and erosive esophagitis.",
+    "Price": 85.0,
+    "PictureUrl": "images/products/losec.png",
+    "ActiveIngredient": "Omeprazole 40mg",
+    "Conflicts": "Taking clopidogrel, atazanavir, nelfinavir, Long-term use risks, Osteoporosis, Vitamin B12 deficiency"
+  },
+  {
+    "Name": "Gliclazide",
+    "Description": "Used to control blood glucose levels in patients with type 2 diabetes mellitus.",
+    "Price": 12.75,
+    "PictureUrl": "images/products/gliclazide.png",
+    "ActiveIngredient": "Gliclazide 80mg",
+    "Conflicts": "Type 1 diabetes, Diabetic ketoacidosis, Severe kidney or liver disease, Taking miconazole or phenylbutazone"
+  },
+  {
+    "Name": "Norvasc",
+    "Description": "Used to treat high blood pressure and coronary artery disease by relaxing blood vessels.",
+    "Price": 65.25,
+    "PictureUrl": "images/products/norvasc.png",
+    "ActiveIngredient": "Amlodipine 10mg",
+    "Conflicts": "Severe aortic stenosis, Cardiogenic shock, Severe liver disease, Pregnancy, Taking strong CYP3A4 inhibitors"
+  },
+  {
+    "Name": "Diamicron",
+    "Description": "Used to treat type 2 diabetes mellitus when diet and exercise alone are not sufficient.",
+    "Price": 35.5,
+    "PictureUrl": "images/products/diamicron.png",
+    "ActiveIngredient": "Gliclazide MR 30mg",
+    "Conflicts": "Type 1 diabetes, Diabetic ketoacidosis, Severe renal or hepatic impairment, Taking miconazole"
+  },
+  {
+    "Name": "Exforge",
+    "Description": "Used to treat high blood pressure with a combination of two medications.",
+    "Price": 150.0,
+    "PictureUrl": "images/products/exforge.png",
+    "ActiveIngredient": "Amlodipine 5mg + Valsartan 80mg",
+    "Conflicts": "Pregnancy, Severe liver disease, Anuria, Hyperkalemia, Taking lithium or potassium supplements"
+  },
+  {
+    "Name": "Coversyl",
+    "Description": "Used to treat high blood pressure and reduce the risk of cardiac events.",
+    "Price": 95.75,
+    "PictureUrl": "images/products/coversyl.png",
+    "ActiveIngredient": "Perindopril 4mg",
+    "Conflicts": "Pregnancy, Angioedema history, Severe kidney disease, Taking lithium or potassium-sparing diuretics"
+  },
+  {
+    "Name": "Diovan",
+    "Description": "Used to treat high blood pressure and heart failure, and to improve survival after heart attack.",
+    "Price": 125.0,
+    "PictureUrl": "images/products/diovan.png",
+    "ActiveIngredient": "Valsartan 80mg",
+    "Conflicts": "Pregnancy, Severe liver disease, Anuria, Hyperkalemia, Taking lithium"
+  },
+  {
+    "Name": "Aprovel",
+    "Description": "Used to treat high blood pressure and diabetic kidney disease in patients with type 2 diabetes.",
+    "Price": 110.25,
+    "PictureUrl": "images/products/aprovel.png",
+    "ActiveIngredient": "Irbesartan 150mg",
+    "Conflicts": "Pregnancy, Severe liver disease, Anuria, Hyperkalemia, Taking lithium or potassium supplements"
+  },
+  {
+    "Name": "Micardis",
+    "Description": "Used to treat high blood pressure and reduce cardiovascular risk in certain patients.",
+    "Price": 185.5,
+    "PictureUrl": "images/products/micardis.png",
+    "ActiveIngredient": "Telmisartan 40mg",
+    "Conflicts": "Pregnancy, Severe liver disease, Biliary obstruction, Hyperkalemia, Taking lithium"
+  },
+  {
+    "Name": "Lasix",
+    "Description": "Used to treat fluid retention (edema) and high blood pressure by removing excess water and salt.",
+    "Price": 8.25,
+    "PictureUrl": "images/products/lasix.png",
+    "ActiveIngredient": "Furosemide 40mg",
+    "Conflicts": "Anuria, Severe electrolyte depletion, Kidney disease, Hearing problems, Taking lithium or digitalis"
+  },
+  {
+    "Name": "Aldactone",
+    "Description": "Used to treat high blood pressure, heart failure, and fluid retention while preserving potassium.",
+    "Price": 22.75,
+    "PictureUrl": "images/products/aldactone.png",
+    "ActiveIngredient": "Spironolactone 25mg",
+    "Conflicts": "Hyperkalemia, Severe kidney disease, Addison's disease, Taking ACE inhibitors or potassium supplements"
+  },
+  {
+    "Name": "Moduretic",
+    "Description": "Used to treat high blood pressure and fluid retention with a potassium-sparing combination.",
+    "Price": 18.5,
+    "PictureUrl": "images/products/moduretic.png",
+    "ActiveIngredient": "Amiloride 5mg + Hydrochlorothiazide 50mg",
+    "Conflicts": "Hyperkalemia, Severe kidney disease, Anuria, Taking ACE inhibitors, Lithium, or NSAIDs"
+  },
+  {
+    "Name": "Spiractin",
+    "Description": "Used to treat heart failure, high blood pressure, and conditions causing fluid retention.",
+    "Price": 15.25,
+    "PictureUrl": "images/products/spiractin.png",
+    "ActiveIngredient": "Spironolactone 100mg",
+    "Conflicts": "Hyperkalemia, Severe kidney disease, Addison's disease, Pregnancy, Taking ACE inhibitors"
+  },
+  {
+    "Name": "Ranitidin-H",
+    "Description": "Used to treat and prevent stomach ulcers, heartburn, and acid indigestion.",
+    "Price": 18.0,
+    "PictureUrl": "images/products/ranitidin-h.png",
+    "ActiveIngredient": "Ranitidine 300mg",
+    "Conflicts": "Severe kidney disease, History of acute porphyria, Taking warfarin or triazolam"
+  },
+  {
+    "Name": "Gaviscon",
+    "Description": "Used to relieve heartburn and acid indigestion by forming a protective barrier in the stomach.",
+    "Price": 35.5,
+    "PictureUrl": "images/products/gaviscon.png",
+    "ActiveIngredient": "Sodium Alginate 500mg + Sodium Bicarbonate 267mg",
+    "Conflicts": "Severe kidney disease, Heart failure, High sodium diet restrictions, Taking tetracycline antibiotics"
+  },
+  {
+    "Name": "Paracetamol 500mg",
+    "Description": "Generic paracetamol for relief of mild to moderate pain and fever reduction.",
+    "Price": 4.5,
+    "PictureUrl": "images/products/paracetamol-generic.png",
+    "ActiveIngredient": "Paracetamol 500mg",
+    "Conflicts": "Liver disease, Alcoholism, Severe malnutrition, Taking warfarin"
+  },
+  {
+    "Name": "Aspirin 100mg",
+    "Description": "Low-dose aspirin for cardiovascular protection and mild pain relief.",
+    "Price": 3.0,
+    "PictureUrl": "images/products/aspirin-generic.png",
+    "ActiveIngredient": "Acetylsalicylic Acid 100mg",
+    "Conflicts": "Peptic ulcers, Bleeding disorders, Asthma, Kidney disease, Taking anticoagulants"
+  },
+  {
+    "Name": "Ibuprofen 400mg",
+    "Description": "Generic ibuprofen for pain, inflammation, and fever reduction.",
+    "Price": 10.0,
+    "PictureUrl": "images/products/ibuprofen-generic.png",
+    "ActiveIngredient": "Ibuprofen 400mg",
+    "Conflicts": "Stomach ulcers, Asthma, Heart failure, High blood pressure, Kidney disease, Pregnancy"
+  },
+  {
+    "Name": "Amoxicillin 500mg",
+    "Description": "Generic broad-spectrum antibiotic for bacterial infections.",
+    "Price": 18.0,
+    "PictureUrl": "images/products/amoxicillin-generic.png",
+    "ActiveIngredient": "Amoxicillin 500mg",
+    "Conflicts": "Penicillin allergy, Mononucleosis, Kidney disease, Taking allopurinol"
+  },
+  {
+    "Name": "123 Cold & Flu",
+    "Description": "Multi-symptom relief for cold and flu including fever, aches, and congestion.",
+    "Price": 25.0,
+    "PictureUrl": "images/products/123-cold-flu.png",
+    "ActiveIngredient": "Paracetamol 500mg + Pseudoephedrine 30mg + Dextromethorphan 15mg",
+    "Conflicts": "High blood pressure, Heart disease, Diabetes, Glaucoma, Thyroid problems, Taking MAO inhibitors"
+  },
+  {
+    "Name": "Flu-Out",
+    "Description": "Effective relief from flu symptoms including fever, body aches, and respiratory congestion.",
+    "Price": 18.0,
+    "PictureUrl": "images/products/flu-out.png",
+    "ActiveIngredient": "Paracetamol 325mg + Chlorpheniramine 2mg + Pseudoephedrine 30mg",
+    "Conflicts": "High blood pressure, Glaucoma, Prostatic hypertrophy, Taking MAO inhibitors, Liver disease"
+  },
+  {
+    "Name": "Solpadeine",
+    "Description": "Strong pain relief combining paracetamol, codeine, and caffeine for moderate to severe pain.",
+    "Price": 45.0,
+    "PictureUrl": "images/products/solpadeine.png",
+    "ActiveIngredient": "Paracetamol 500mg + Codeine 8mg + Caffeine 30mg",
+    "Conflicts": "Respiratory depression, Head injury, Addiction history, Liver disease, Taking MAO inhibitors"
+  },
+  {
+    "Name": "Panadol Cold & Flu",
+    "Description": "Trusted relief for cold and flu symptoms with reduced drowsiness formula.",
+    "Price": 28.0,
+    "PictureUrl": "images/products/panadol-cold-flu.png",
+    "ActiveIngredient": "Paracetamol 500mg + Pseudoephedrine 30mg",
+    "Conflicts": "High blood pressure, Heart disease, Diabetes, Thyroid problems, Taking MAO inhibitors"
+  },
+  {
+    "Name": "Betnovate",
+    "Description": "Potent topical corticosteroid for inflammatory skin conditions like eczema and dermatitis.",
+    "Price": 32.0,
+    "PictureUrl": "images/products/betnovate.png",
+    "ActiveIngredient": "Betamethasone Valerate 0.1%",
+    "Conflicts": "Viral skin infections, Bacterial skin infections, Acne, Rosacea, Application on face in children"
+  },
+  {
+    "Name": "Elocon",
+    "Description": "Moderate-strength topical corticosteroid for treating various inflammatory skin conditions.",
+    "Price": 55.0,
+    "PictureUrl": "images/products/elocon.png",
+    "ActiveIngredient": "Mometasone Furoate 0.1%",
+    "Conflicts": "Skin infections, Acne, Rosacea, Pregnancy, Breastfeeding, Prolonged use on face"
+  },
+  {
+    "Name": "Quadriderm",
+    "Description": "Combination topical treatment for infected inflammatory skin conditions.",
+    "Price": 38.0,
+    "PictureUrl": "images/products/quadriderm.png",
+    "ActiveIngredient": "Betamethasone + Clotrimazole + Gentamicin + Tolnaftate",
+    "Conflicts": "Viral skin infections, Skin sensitivity, Pregnancy, Prolonged use, Hearing problems"
+  },
+  {
+    "Name": "Ketoral",
+    "Description": "Antifungal cream for treating various fungal skin infections including athlete's foot and ringworm.",
+    "Price": 42.0,
+    "PictureUrl": "images/products/ketoral.png",
+    "ActiveIngredient": "Ketoconazole 2%",
+    "Conflicts": "Liver disease, Taking statins, Pregnancy, Breastfeeding, Skin hypersensitivity"
+  },
+  {
+    "Name": "Duphaston",
+    "Description": "Synthetic progesterone used for menstrual disorders and pregnancy support.",
+    "Price": 65.0,
+    "PictureUrl": "images/products/duphaston.png",
+    "ActiveIngredient": "Dydrogesterone 10mg",
+    "Conflicts": "Breast cancer, Liver disease, Undiagnosed vaginal bleeding, Blood clots history"
+  },
+  {
+    "Name": "Primolut-N",
+    "Description": "Synthetic hormone used to treat menstrual disorders and endometriosis.",
+    "Price": 35.0,
+    "PictureUrl": "images/products/primolut-n.png",
+    "ActiveIngredient": "Norethisterone 5mg",
+    "Conflicts": "Pregnancy, Breast cancer, Liver disease, Blood clots, Undiagnosed vaginal bleeding"
+  },
+  {
+    "Name": "Folic Acid 5mg",
+    "Description": "Essential vitamin for cell division and DNA synthesis, especially important during pregnancy.",
+    "Price": 8.0,
+    "PictureUrl": "images/products/folic-acid.png",
+    "ActiveIngredient": "Folic Acid 5mg",
+    "Conflicts": "Vitamin B12 deficiency, Taking methotrexate, Epilepsy medications"
+  },
+  {
+    "Name": "Ferro-Gradumet",
+    "Description": "Slow-release iron supplement for treating iron deficiency anemia, especially in pregnancy.",
+    "Price": 22.0,
+    "PictureUrl": "images/products/ferro-gradumet.png",
+    "ActiveIngredient": "Ferrous Sulfate 525mg",
+    "Conflicts": "Hemochromatosis, Hemosiderosis, Peptic ulcer, Taking tetracycline antibiotics"
+  },
+  {
+    "Name": "Seroxat",
+    "Description": "SSRI antidepressant for treating depression, anxiety disorders, and panic attacks.",
+    "Price": 125.0,
+    "PictureUrl": "images/products/seroxat.png",
+    "ActiveIngredient": "Paroxetine 20mg",
+    "Conflicts": "MAO inhibitors, Suicidal thoughts, Bipolar disorder, Bleeding disorders, Pregnancy"
+  },
+  {
+    "Name": "Cipralex",
+    "Description": "Modern SSRI antidepressant with fewer side effects for depression and anxiety disorders.",
+    "Price": 185.0,
+    "PictureUrl": "images/products/cipralex.png",
+    "ActiveIngredient": "Escitalopram 10mg",
+    "Conflicts": "MAO inhibitors, Heart rhythm disorders, Suicidal thoughts, Bleeding disorders, Pregnancy"
+  },
+  {
+    "Name": "Stilnox",
+    "Description": "Short-acting sleep medication for treating insomnia and sleep disorders.",
+    "Price": 95.0,
+    "PictureUrl": "images/products/stilnox.png",
+    "ActiveIngredient": "Zolpidem 10mg",
+    "Conflicts": "Sleep apnea, Respiratory depression, Liver disease, Addiction history, Pregnancy"
+  },
+  {
+    "Name": "Pulmicort",
+    "Description": "Inhaled corticosteroid for long-term asthma and COPD management.",
+    "Price": 180.0,
+    "PictureUrl": "images/products/pulmicort.png",
+    "ActiveIngredient": "Budesonide 200mcg",
+    "Conflicts": "Fungal infections, Tuberculosis, Viral respiratory infections, Milk protein allergy"
+  },
+  {
+    "Name": "Atrovent",
+    "Description": "Bronchodilator inhaler for COPD and chronic bronchitis management.",
+    "Price": 120.0,
+    "PictureUrl": "images/products/atrovent.png",
+    "ActiveIngredient": "Ipratropium Bromide 20mcg",
+    "Conflicts": "Glaucoma, Prostatic hypertrophy, Bladder neck obstruction, Soy/peanut allergy"
+  },
+  {
+    "Name": "Singulair",
+    "Description": "Leukotriene receptor antagonist for asthma and allergic rhinitis prevention.",
+    "Price": 165.0,
+    "PictureUrl": "images/products/singulair.png",
+    "ActiveIngredient": "Montelukast 10mg",
+    "Conflicts": "Liver disease, Mental health disorders, Neuropsychiatric events, Phenylketonuria"
+  },
+  {
+    "Name": "Tobradex",
+    "Description": "Antibiotic and steroid eye drops for treating bacterial eye infections with inflammation.",
+    "Price": 85.0,
+    "PictureUrl": "images/products/tobradex.png",
+    "ActiveIngredient": "Tobramycin 0.3% + Dexamethasone 0.1%",
+    "Conflicts": "Viral eye infections, Fungal eye infections, Mycobacterial infections, Corneal ulcers"
+  },
+  {
+    "Name": "Refresh Tears",
+    "Description": "Preservative-free artificial tears for dry eye relief and eye lubrication.",
+    "Price": 35.0,
+    "PictureUrl": "images/products/refresh-tears.png",
+    "ActiveIngredient": "Carboxymethylcellulose 0.5%",
+    "Conflicts": "Known hypersensitivity to ingredients, Contact lens incompatibility with some formulations"
+  },
+  {
+    "Name": "Otrivin Nasal Drops",
+    "Description": "Nasal decongestant drops for relief of nasal congestion due to colds and allergies.",
+    "Price": 24.0,
+    "PictureUrl": "images/products/otrivin-drops.png",
+    "ActiveIngredient": "Xylometazoline 0.1%",
+    "Conflicts": "High blood pressure, Heart disease, Diabetes, Thyroid problems, Glaucoma, Prostate problems"
+  },
+  {
+    "Name": "Vitamin D3 4000 IU",
+    "Description": "High-potency vitamin D supplement for bone health and immune system support.",
+    "Price": 45.0,
+    "PictureUrl": "images/products/vitamin-d3.png",
+    "ActiveIngredient": "Cholecalciferol 4000 IU",
+    "Conflicts": "Hypercalcemia, Kidney stones, Sarcoidosis, Taking thiazide diuretics"
+  },
+  {
+    "Name": "B-Complex Strong",
+    "Description": "High-potency B-vitamin complex for energy metabolism and nervous system support.",
+    "Price": 30.0,
+    "PictureUrl": "images/products/b-complex.png",
+    "ActiveIngredient": "B1 100mg + B2 100mg + B6 100mg + B12 100mcg + Niacin 100mg",
+    "Conflicts": "Levodopa treatment, High doses in pregnancy, Niacin sensitivity"
+  },
+  {
+    "Name": "Centrum Multivitamin",
+    "Description": "Complete daily multivitamin and mineral supplement for overall health support.",
+    "Price": 75.0,
+    "PictureUrl": "images/products/centrum.png",
+    "ActiveIngredient": "Multivitamin and Mineral Complex",
+    "Conflicts": "Iron overload, Vitamin A toxicity, Taking anticoagulants, Kidney disease"
+  },
+  {
+    "Name": "Omega-3 1000mg",
+    "Description": "High-quality fish oil supplement for heart, brain, and joint health.",
+    "Price": 85.0,
+    "PictureUrl": "images/products/omega3-1000.png",
+    "ActiveIngredient": "Fish Oil 1000mg (EPA 300mg + DHA 200mg)",
+    "Conflicts": "Fish allergy, Bleeding disorders, Taking anticoagulants, Upcoming surgery"
+  },
+  {
+    "Name": "Calcium + Magnesium",
+    "Description": "Combined calcium and magnesium supplement for bone and muscle health.",
+    "Price": 38.0,
+    "PictureUrl": "images/products/calcium-magnesium.png",
+    "ActiveIngredient": "Calcium Carbonate 600mg + Magnesium 300mg",
+    "Conflicts": "Kidney stones, High calcium levels, Taking tetracycline antibiotics, Heart block"
+  },
+  {
+    "Name": "Iron + Vitamin C",
+    "Description": "Iron supplement with vitamin C for enhanced absorption in treating anemia.",
+    "Price": 25.0,
+    "PictureUrl": "images/products/iron-vitamin-c.png",
+    "ActiveIngredient": "Ferrous Fumarate 200mg + Vitamin C 60mg",
+    "Conflicts": "Hemochromatosis, Peptic ulcer, Taking tetracycline antibiotics, G6PD deficiency"
+  },
+  {
+    "Name": "Zinc Tablets",
+    "Description": "Essential mineral supplement for immune system support and wound healing.",
+    "Price": 20.0,
+    "PictureUrl": "images/products/zinc.png",
+    "ActiveIngredient": "Zinc Sulfate 50mg",
+    "Conflicts": "Copper deficiency, Taking antibiotics, High doses, Kidney disease"
+  },
+  {
+    "Name": "Magnesium 400mg",
+    "Description": "High-potency magnesium supplement for muscle function and stress management.",
+    "Price": 42.0,
+    "PictureUrl": "images/products/magnesium-400.png",
+    "ActiveIngredient": "Magnesium Oxide 400mg",
+    "Conflicts": "Kidney disease, Heart block, Taking antibiotics, Myasthenia gravis"
+  },
+  {
+    "Name": "Probiotics Multi-Strain",
+    "Description": "Multi-strain probiotic supplement for digestive health and immune support.",
+    "Price": 95.0,
+    "PictureUrl": "images/products/probiotics.png",
+    "ActiveIngredient": "Lactobacillus + Bifidobacterium Multi-Strain 10 Billion CFU",
+    "Conflicts": "Immunocompromised patients, Severe illness, Pancreatitis, Taking antibiotics"
+  },
+  {
+    "Name": "Coenzyme Q10",
+    "Description": "Antioxidant supplement for heart health and energy production support.",
+    "Price": 120.0,
+    "PictureUrl": "images/products/coq10.png",
+    "ActiveIngredient": "Coenzyme Q10 100mg",
+    "Conflicts": "Taking warfarin, Diabetes medications, Blood pressure medications, Chemotherapy"
+  },
+  {
+    "Name": "Melatonin 3mg",
+    "Description": "Natural sleep hormone supplement for regulating sleep-wake cycles.",
+    "Price": 55.0,
+    "PictureUrl": "images/products/melatonin.png",
+    "ActiveIngredient": "Melatonin 3mg",
+    "Conflicts": "Autoimmune diseases, Depression, Seizures, Blood thinners, Diabetes medications"
+  },
+  {
+    "Name": "Spasmo-Digestin",
+    "Description": "Popular Egyptian digestive enzyme and antispasmodic combination for indigestion, bloating, and digestive discomfort.",
+    "Price": 28.5,
+    "PictureUrl": "images/products/spasmo-digestin.png",
+    "ActiveIngredient": "Pancreatin 100mg + Hyoscine Butylbromide 10mg + Simethicone 40mg",
+    "Conflicts": "Glaucoma, Myasthenia gravis, Prostatic hypertrophy, Intestinal obstruction, Tachycardia"
+  },
+  {
+    "Name": "Digestin",
+    "Description": "Digestive enzyme supplement to aid digestion and reduce bloating after meals.",
+    "Price": 22.0,
+    "PictureUrl": "images/products/digestin.png",
+    "ActiveIngredient": "Pancreatin 150mg + Pepsin 50mg + Bile Extract 25mg",
+    "Conflicts": "Acute pancreatitis, Severe liver disease, Taking blood thinners, Peptic ulcer"
+  },
+  {
+    "Name": "Smecta",
+    "Description": "Natural clay-based anti-diarrheal medication for acute and chronic diarrhea treatment.",
+    "Price": 35.0,
+    "PictureUrl": "images/products/smecta.png",
+    "ActiveIngredient": "Diosmectite 3g",
+    "Conflicts": "Intestinal obstruction, Severe constipation, Taking other medications (may reduce absorption)"
+  },
+  {
+    "Name": "Maalox",
+    "Description": "Fast-acting antacid for heartburn, acid indigestion, and stomach upset relief.",
+    "Price": 18.5,
+    "PictureUrl": "images/products/maalox.png",
+    "ActiveIngredient": "Aluminum Hydroxide 400mg + Magnesium Hydroxide 400mg",
+    "Conflicts": "Kidney disease, Taking tetracycline antibiotics, Heart failure, High magnesium levels"
+  },
+  {
+    "Name": "Naprosyn",
+    "Description": "Long-acting NSAID for arthritis, menstrual cramps, and moderate to severe pain relief.",
+    "Price": 38.75,
+    "PictureUrl": "images/products/naprosyn.png",
+    "ActiveIngredient": "Naproxen 500mg",
+    "Conflicts": "Stomach ulcers, Asthma, Heart failure, High blood pressure, Kidney disease, Pregnancy, Taking anticoagulants"
+  },
+  {
+    "Name": "Feldene",
+    "Description": "Potent anti-inflammatory medication for arthritis and musculoskeletal pain management.",
+    "Price": 45.0,
+    "PictureUrl": "images/products/feldene.png",
+    "ActiveIngredient": "Piroxicam 20mg",
+    "Conflicts": "Stomach ulcers, Bleeding disorders, Heart failure, Kidney disease, Pregnancy, Taking anticoagulants"
+  },
+  {
+    "Name": "Celebrex",
+    "Description": "COX-2 selective anti-inflammatory with reduced gastrointestinal side effects for arthritis treatment.",
+    "Price": 185.0,
+    "PictureUrl": "images/products/celebrex.png",
+    "ActiveIngredient": "Celecoxib 200mg",
+    "Conflicts": "Heart disease, Stroke history, High blood pressure, Kidney disease, Sulfa allergy, Pregnancy"
+  },
+  {
+    "Name": "Surgam",
+    "Description": "Effective anti-inflammatory and analgesic for rheumatic and musculoskeletal conditions.",
+    "Price": 42.25,
+    "PictureUrl": "images/products/surgam.png",
+    "ActiveIngredient": "Tiaprofenic Acid 300mg",
+    "Conflicts": "Stomach ulcers, Kidney disease, Heart failure, Bladder problems, Pregnancy, Taking anticoagulants"
+  },
+  {
+    "Name": "Ventolin",
+    "Description": "Most commonly prescribed rescue inhaler for asthma and bronchospasm relief.",
+    "Price": 85.0,
+    "PictureUrl": "images/products/ventolin.png",
+    "ActiveIngredient": "Salbutamol 100mcg/dose",
+    "Conflicts": "Heart rhythm disorders, Hyperthyroidism, Diabetes, High blood pressure, Taking beta-blockers"
+  },
+  {
+    "Name": "Berodual",
+    "Description": "Combination bronchodilator inhaler for COPD and severe asthma management.",
+    "Price": 125.0,
+    "PictureUrl": "images/products/berodual.png",
+    "ActiveIngredient": "Ipratropium Bromide 20mcg + Fenoterol 50mcg",
+    "Conflicts": "Glaucoma, Prostatic hypertrophy, Heart rhythm disorders, Hyperthyroidism, Pregnancy"
+  },
+  {
+    "Name": "Zithromax",
+    "Description": "Broad-spectrum macrolide antibiotic for respiratory, skin, and soft tissue infections.",
+    "Price": 95.0,
+    "PictureUrl": "images/products/zithromax.png",
+    "ActiveIngredient": "Azithromycin 500mg",
+    "Conflicts": "Liver disease, Heart rhythm disorders, Myasthenia gravis, Taking ergot alkaloids or digoxin"
+  },
+  {
+    "Name": "Unasyn",
+    "Description": "Injectable broad-spectrum antibiotic combination for serious bacterial infections.",
+    "Price": 65.0,
+    "PictureUrl": "images/products/unasyn.png",
+    "ActiveIngredient": "Ampicillin 1g + Sulbactam 500mg",
+    "Conflicts": "Penicillin allergy, Mononucleosis, Liver disease, Taking allopurinol or probenecid"
+  },
+  {
+    "Name": "Cefotax",
+    "Description": "Third-generation cephalosporin antibiotic for severe bacterial infections and meningitis.",
+    "Price": 55.0,
+    "PictureUrl": "images/products/cefotax.png",
+    "ActiveIngredient": "Ceftriaxone 1g",
+    "Conflicts": "Cephalosporin allergy, Penicillin allergy, Kidney disease, Taking calcium-containing solutions"
+  },
+  {
+    "Name": "Biltricide",
+    "Description": "Specific treatment for schistosomiasis and other parasitic worm infections endemic in Egypt.",
+    "Price": 125.0,
+    "PictureUrl": "images/products/biltricide.png",
+    "ActiveIngredient": "Praziquantel 600mg",
+    "Conflicts": "Eye infections with Taenia solium, Liver disease, Taking rifampin, Pregnancy, Breastfeeding"
+  },
+  {
+    "Name": "Vermox",
+    "Description": "Broad-spectrum anthelmintic for treating intestinal worm infections including pinworms and roundworms.",
+    "Price": 28.0,
+    "PictureUrl": "images/products/vermox.png",
+    "ActiveIngredient": "Mebendazole 100mg",
+    "Conflicts": "Pregnancy, Crohn's disease, Ulcerative colitis, Liver disease, Taking metronidazole"
+  },
+  {
+    "Name": "Hemocaps",
+    "Description": "Popular Egyptian iron supplement for treating iron deficiency anemia with enhanced absorption.",
+    "Price": 32.0,
+    "PictureUrl": "images/products/hemocaps.png",
+    "ActiveIngredient": "Ferrous Fumarate 305mg + Vitamin C 60mg + Folic Acid 1mg",
+    "Conflicts": "Hemochromatosis, Peptic ulcer, Taking tetracycline antibiotics, Thalassemia"
+  },
+  {
+    "Name": "Calcimag",
+    "Description": "Egyptian calcium and magnesium supplement for bone health and muscle function.",
+    "Price": 25.0,
+    "PictureUrl": "images/products/calcimag.png",
+    "ActiveIngredient": "Calcium Carbonate 500mg + Magnesium 250mg + Vitamin D3 200 IU",
+    "Conflicts": "Kidney stones, High calcium levels, Taking tetracycline antibiotics, Heart block, Sarcoidosis"
   }
 ] 

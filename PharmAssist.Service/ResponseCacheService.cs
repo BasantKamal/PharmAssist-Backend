@@ -1,5 +1,4 @@
-﻿
-using PharmAssist.Core.Services;
+﻿using PharmAssist.Core.Services;
 using StackExchange.Redis;
 using System.Text.Json;
 
@@ -11,7 +10,11 @@ namespace PharmAssist.Service
 		private readonly IDatabase _database;
         public ResponseCacheService(IConnectionMultiplexer Redis)
         {
-			_database=Redis.GetDatabase();
+			if (Redis == null)
+			{
+				throw new ArgumentNullException(nameof(Redis), "Redis connection is null");
+			}
+			_database = Redis.GetDatabase();
         }
 		public async Task CacheReponseAsync(string CacheKey, object Response, TimeSpan ExpireTime)
 		{
@@ -20,7 +23,7 @@ namespace PharmAssist.Service
 			{
 				PropertyNamingPolicy = JsonNamingPolicy.CamelCase
 			};
-			var serializedResponse=JsonSerializer.Serialize(Response,options);
+			var serializedResponse = JsonSerializer.Serialize(Response, options);
 			await _database.StringSetAsync(CacheKey, serializedResponse, ExpireTime);
 				
 		}

@@ -8,7 +8,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword />
     <_PublishTargetUrl>ftp://win1044.site4now.net:21/pharm-assist</_PublishTargetUrl>
-    <History>False|2025-06-11T12:37:44.9791894Z;</History>
+    <History>False|2025-06-15T02:26:32.0008076Z;False|2025-06-11T14:37:44.9791894+02:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

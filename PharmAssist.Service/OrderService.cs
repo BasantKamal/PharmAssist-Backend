@@ -23,22 +23,23 @@ namespace PharmAssist.Service
 			//1.Get Basket From Basket Repo
 
 			var basket=await _basketRepository.GetBasketAsync(basketId);
+			if (basket == null || basket.Items.Count == 0)
+			{
+				return null;
+			}
 
 			//2.Get Selected Items at Basket From Product
 
 			var orderItems=new List<OrderItem>();
-			if (basket?.Items.Count > 0)
+			foreach(var item in basket.Items)
 			{
-				foreach(var item in basket.Items)
-				{
-					var product = await _unitOfWork.Repository<Product>().GetByIdAsync(item.Id);
-					var productItemOredered=new ProductItemOrdered(product.Id,product.Name,product.PictureUrl);
-					var orderItem = new OrderItem(productItemOredered, item.Quantity,product.Price);
-					orderItems.Add(orderItem);
-				}
+				var product = await _unitOfWork.Repository<Product>().GetByIdAsync(item.ProductId);
+				var productItemOredered=new ProductItemOrdered(product.Id,product.Name,product.PictureUrl);
+				var orderItem = new OrderItem(productItemOredered, item.Quantity,product.Price);
+				orderItems.Add(orderItem);
 			}
 
-			//3.Calculate SubTotal = proie of product * quantity
+			//3.Calculate SubTotal = price of product * quantity
 
 			var subTotal = orderItems.Sum(item => item.Price * item.Quantity);
 
@@ -47,8 +48,9 @@ namespace PharmAssist.Service
 			var deliveryMethod=await _unitOfWork.Repository<DeliveryMethod>().GetByIdAsync(deliveryMethodId);
 
 			//5.Create Order
-
-			var order=new Order(buyerEmail,shippingAddress,deliveryMethod,orderItems,subTotal);
+			// For now, we'll use a temporary payment intent ID. In a real application, this would come from a payment processor
+			var tempPaymentIntentId = $"temp_{Guid.NewGuid()}";
+			var order=new Order(buyerEmail,shippingAddress,deliveryMethod,orderItems,subTotal, tempPaymentIntentId);
 
 			//6.Add Order Locally
 
@@ -58,6 +60,10 @@ namespace PharmAssist.Service
 
 			var result= await _unitOfWork.CompleteAsync();
 			if (result <= 0) return null;
+			
+			//8.Clear the basket after successful order creation
+			await _basketRepository.DeleteBasketAsync(basketId);
+			
 			return order;
 		}
 

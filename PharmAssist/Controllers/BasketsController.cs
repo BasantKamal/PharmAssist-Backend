@@ -72,7 +72,7 @@ namespace PharmAssist.APIs.Controllers
 
 			basket.Items ??= new List<BasketItem>();
 
-			var item = basket.Items.FirstOrDefault(i => i.Id == productId);
+			var item = basket.Items.FirstOrDefault(i => i.ProductId == productId);
 			if (item != null)
 			{
 				item.Quantity++;
@@ -85,12 +85,13 @@ namespace PharmAssist.APIs.Controllers
 			{
 				basket.Items.Add(new BasketItem
 				{
-					Id = productId,
+					ProductId = productId,
 					Quantity = 1,
 					Price = product.Price,
 					Name = product.Name,
 					PictureUrl = product.PictureUrl,
-					ActiveIngredient = product.ActiveIngredient
+					ActiveIngredient = product.ActiveIngredient,
+					BasketId = basket.Id
 				});
 			}
 
@@ -111,7 +112,7 @@ namespace PharmAssist.APIs.Controllers
 			var basket = await _basketRepository.GetBasketAsync(user.Id);
 			if (basket == null) return NotFound(new ApiResponse(404, "Basket not found"));
 
-			var item = basket.Items.FirstOrDefault(i => i.Id == productId);
+			var item = basket.Items.FirstOrDefault(i => i.ProductId == productId);
 			if (item == null) return NotFound(new ApiResponse(404, "Product not found in basket"));
 
 			basket.Items.Remove(item);
@@ -132,6 +133,12 @@ namespace PharmAssist.APIs.Controllers
 
 			var mappedBasket = _mapper.Map<CustomerBasketDTO, CustomerBasket>(basketDto);
 			mappedBasket.Id = user.Id; // Force basket to be associated with the logged-in user
+			
+			// Set BasketId for all items
+			foreach (var item in mappedBasket.Items)
+			{
+				item.BasketId = mappedBasket.Id;
+			}
 
 			var updated = await _basketRepository.UpdateBasketAsync(mappedBasket);
 			if (updated == null)
@@ -147,30 +154,6 @@ namespace PharmAssist.APIs.Controllers
 			if (user == null) return Unauthorized(new ApiResponse(401));
 
 			return await _basketRepository.DeleteBasketAsync(user.Id);
-		}
-
-		[AllowAnonymous]
-		[HttpGet("test-redis")]
-		public async Task<ActionResult> TestRedisConnection()
-		{
-			try
-			{
-				var testBasket = new CustomerBasket("test-connection");
-				testBasket.Items = new List<BasketItem>();
-
-				var result = await _basketRepository.UpdateBasketAsync(testBasket);
-				if (result != null)
-				{
-					await _basketRepository.DeleteBasketAsync("test-connection");
-					return Ok(new { message = "Redis connection successful!", timestamp = DateTime.UtcNow });
-				}
-
-				return BadRequest(new { message = "Failed to create test basket" });
-			}
-			catch (Exception ex)
-			{
-				return BadRequest(new { message = "Redis connection failed", error = ex.Message });
-			}
 		}
 	}
 }

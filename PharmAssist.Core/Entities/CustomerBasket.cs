@@ -1,9 +1,10 @@
-﻿
-
-namespace PharmAssist.Core.Entities
+﻿namespace PharmAssist.Core.Entities
 {
 	public class CustomerBasket
 	{
+		// Required for EF Core
+		protected CustomerBasket() { }
+		
 		public CustomerBasket(string id)
 		{
 			Id= id;
@@ -11,6 +12,6 @@ namespace PharmAssist.Core.Entities
 		}
 
 		public string Id { get; set; }
-        public List<BasketItem> Items { get; set; }
+        public List<BasketItem> Items { get; set; } = new();
     }
 }

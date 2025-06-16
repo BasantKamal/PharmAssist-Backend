@@ -22,7 +22,9 @@ namespace PharmAssist.Helpers
 
 			CreateMap<BasketItem, BasketItemDTO>()
 				.ForMember(dest => dest.PictureUrl, opt => opt.MapFrom<BasketItemPictureUrlResolver>())
-           .ReverseMap();
+				.ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.ProductId))
+           .ReverseMap()
+				.ForMember(dest => dest.ProductId, opt => opt.MapFrom(src => src.Id));
 
 			CreateMap<Core.Entities.Identity.Address, AddressDTO>().ReverseMap();
 			CreateMap<EditProfileDto, AppUser>()

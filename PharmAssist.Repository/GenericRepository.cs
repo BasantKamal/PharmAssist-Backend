@@ -10,20 +10,25 @@ namespace PharmAssist.Repository
 {
 	public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
 	{
-		private readonly StoreContext _dbContext;
+		protected readonly StoreContext _context;
         public GenericRepository(StoreContext dbContext)
         {
-				_dbContext = dbContext;
+				_context = dbContext;
         }
 		#region Without Specifications
 		public async Task<IReadOnlyList<T>> GetAllAsync()
 		{
-				return await _dbContext.Set<T>().ToListAsync();
+				return await _context.Set<T>().ToListAsync();
+		}
+
+		public async Task<IReadOnlyList<T>> ListAllAsync()
+		{
+			return await _context.Set<T>().ToListAsync();
 		}
 	
 		public async Task<T> GetByIdAsync(int id)
 		{
-			return await _dbContext.Set<T>().FindAsync(id);
+			return await _context.Set<T>().FindAsync(id);
 			  
 		}
 		#endregion
@@ -49,7 +54,7 @@ namespace PharmAssist.Repository
 			int? take = null,
 			int skip = 0)
 		{
-			IQueryable<T> query = _dbContext.Set<T>();
+			IQueryable<T> query = _context.Set<T>();
 
 			if (filter != null)
 			{
@@ -87,7 +92,7 @@ namespace PharmAssist.Repository
 			Expression<Func<T, bool>> filter,
 			string includeProperties = "")
 		{
-			IQueryable<T> query = _dbContext.Set<T>();
+			IQueryable<T> query = _context.Set<T>();
 
 			if (filter != null)
 			{
@@ -108,7 +113,7 @@ namespace PharmAssist.Repository
 
 		public async Task<int> CountAsync(Expression<Func<T, bool>> filter = null)
 		{
-			IQueryable<T> query = _dbContext.Set<T>();
+			IQueryable<T> query = _context.Set<T>();
 
 			if (filter != null)
 			{
@@ -121,7 +126,7 @@ namespace PharmAssist.Repository
 
 		private IQueryable<T> ApplySpecification(ISpecifications<T> Spec)
 		{
-			return SpecificationEvaluator<T>.GetQuery(_dbContext.Set<T>(), Spec);
+			return SpecificationEvaluator<T>.GetQuery(_context.Set<T>(), Spec);
 		}
 
 		public async Task<int> GetCountWithSpecAsync(ISpecifications<T> Spec)
@@ -130,13 +135,13 @@ namespace PharmAssist.Repository
 		}
 
 		public async Task Add(T item)
-			=> await _dbContext.Set<T>().AddAsync(item);
+			=> await _context.Set<T>().AddAsync(item);
 
 		public void Update(T entity)
-			=> _dbContext.Set<T>().Update(entity);
+			=> _context.Set<T>().Update(entity);
 
 		public void Delete(T entity)
-			=> _dbContext.Set<T>().Remove(entity);
+			=> _context.Set<T>().Remove(entity);
 		
 	}
 }

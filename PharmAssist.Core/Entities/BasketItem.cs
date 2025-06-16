@@ -1,16 +1,19 @@
-﻿
-
-namespace PharmAssist.Core.Entities
+﻿namespace PharmAssist.Core.Entities
 {
-	public class BasketItem
+	public class BasketItem : BaseEntity
 	{
-		public int Id { get; set; }
+		// Required for EF Core
+		public BasketItem() { }
+		
+		public int ProductId { get; set; }
 		public string Name { get; set; }
 		public string PictureUrl { get; set; }
 		public string ActiveIngredient { get; set; }
-
 		public decimal Price { get; set; }
 		public int Quantity { get; set; }
-
+		
+		// Foreign key for EF Core relationship
+		public string BasketId { get; set; }
+		public CustomerBasket? Basket { get; set; }
 	}
 }

@@ -659,3 +659,5 @@ D:\Project\PharmAssist\obj\Debug\net8.0\refint\PharmAssist.dll
 D:\Project\PharmAssist\obj\Debug\net8.0\PharmAssist.pdb
 D:\Project\PharmAssist\obj\Debug\net8.0\PharmAssist.genruntimeconfig.cache
 D:\Project\PharmAssist\obj\Debug\net8.0\ref\PharmAssist.dll
+D:\Project\PharmAssist\bin\Debug\net8.0\web.config
+D:\Project\PharmAssist\bin\Debug\net8.0\Newtonsoft.Json.dll

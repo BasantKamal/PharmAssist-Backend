@@ -39,10 +39,6 @@ namespace PharmAssist.Controllers
             _otpService = otpService;
         }
 
-        //public AccountsController()
-        //{
-        //}
-
 
         [HttpPost("Register")]
         public async Task<ActionResult<UserDTO>> Register(RegisterDTO model)
@@ -197,6 +193,10 @@ namespace PharmAssist.Controllers
 		public async Task<ActionResult<AddressDTO>> GetCurrentUserAddress()
 		{
 			var user = await _userManager.FindUserWithAddressAsync(User);
+			if (user?.Address == null) 
+			{
+				return NotFound(new ApiResponse(404, "User address not found"));
+			}
 			var mappedAddress = _mapper.Map<Address, AddressDTO>(user.Address);
 			return Ok(mappedAddress);
 		}
@@ -208,8 +208,21 @@ namespace PharmAssist.Controllers
 		{
 			var user = await _userManager.FindUserWithAddressAsync(User);
 			if (user is null) return Unauthorized(new ApiResponse(401));
+			
 			var address = _mapper.Map<AddressDTO, Address>(updatedAddress);
-			address.Id = user.Address.Id; 
+			
+			// Check if user already has an address
+			if (user.Address != null)
+			{
+				// Update existing address - preserve the ID
+				address.Id = user.Address.Id;
+			}
+			else
+			{
+				// Creating new address - set the foreign key
+				address.AppUserId = user.Id;
+			}
+			
 			user.Address = address;
 			var result = await _userManager.UpdateAsync(user);
 			if (!result.Succeeded) return BadRequest(new ApiResponse(400));

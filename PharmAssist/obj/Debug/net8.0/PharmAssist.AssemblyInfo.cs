@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PharmAssist")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+562ca78620e3a7419f1cace2bb136e54d1846e77")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27f44f6400349c0c97ba3574fe55f7e0148caacd")]
 [assembly: System.Reflection.AssemblyProductAttribute("PharmAssist")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PharmAssist")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

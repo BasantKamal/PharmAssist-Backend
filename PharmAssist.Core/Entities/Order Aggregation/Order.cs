@@ -5,13 +5,14 @@ namespace PharmAssist.Core.Entities.Order_Aggregation
 	public class Order:BaseEntity
 	{
 		public Order() { }
-		public Order(string buyerEmail, Address shippingAddress, DeliveryMethod deliveryMethod, ICollection<OrderItem> items, decimal subTotal)
+		public Order(string buyerEmail, Address shippingAddress, DeliveryMethod deliveryMethod, ICollection<OrderItem> items, decimal subTotal, string paymentIntentId = null)
 		{
 			BuyerEmail = buyerEmail;
 			ShippingAddress = shippingAddress;
 			DeliveryMethod = deliveryMethod;
 			Items = items;
 			SubTotal = subTotal;
+			PaymentIntentId = paymentIntentId;
 		}
 
 		public string BuyerEmail { get; set; }
@@ -22,5 +23,6 @@ namespace PharmAssist.Core.Entities.Order_Aggregation
 		public ICollection<OrderItem> Items { get; set; }=new HashSet<OrderItem>();
 		public decimal SubTotal { get; set; } //price of product * quantity
 		public decimal GetTotal => SubTotal + DeliveryMethod.Cost;  //not mapped in db
+		public string PaymentIntentId { get; set; }
 	}
 }

@@ -7,6 +7,7 @@ using PharmAssist.Errors;
 using PharmAssist.Helpers;
 using PharmAssist.Repository;
 using PharmAssist.Service;
+using StackExchange.Redis;
 
 
 namespace PharmAssist.Extensions
@@ -15,11 +16,30 @@ namespace PharmAssist.Extensions
 	{
 		public static IServiceCollection AddApplicationServices(this IServiceCollection Services) 
 		{
-			Services.AddSingleton<IResponseCacheService, ResponseCacheService>();
+			// Register cache service with fallback
+			Services.AddSingleton<IResponseCacheService>(serviceProvider =>
+			{
+				var redis = serviceProvider.GetService<IConnectionMultiplexer>();
+				if (redis != null && redis.IsConnected)
+				{
+					return new ResponseCacheService(redis);
+				}
+				else
+				{
+					var logger = serviceProvider.GetRequiredService<ILogger<ResponseCacheService>>();
+					logger.LogWarning("Redis connection not available. Using in-memory fallback cache service.");
+					return new FallbackCacheService();
+				}
+			});
+
 			Services.AddScoped<IUnitOfWork, UnitOfWork>();
 			Services.AddScoped(typeof(IOrderService), typeof(OrderService));
-			Services.AddScoped(typeof(IBasketRepository), typeof(BasketRepository));
+			
+			// Register database-based basket repository
+			Services.AddScoped<IBasketRepository, DbBasketRepository>();
+			
 			Services.AddScoped<IEmailService, EmailService>();
+			Services.AddScoped<IMedicationRecommendationService, MedicationRecommendationService>();
 			Services.Configure<IdentityOptions>(options => options.SignIn.RequireConfirmedEmail = true);
 
 

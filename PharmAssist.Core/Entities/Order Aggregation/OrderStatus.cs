@@ -9,13 +9,13 @@ namespace PharmAssist.Core.Entities.Order_Aggregation
 {
 	public enum OrderStatus
 	{
-		[EnumMember(Value ="Pending")] //lma yegy yt3ml fel db yb2a bel value de
+		[EnumMember(Value ="Pending")]
 		Pending,
-		[EnumMember(Value = "Payment Received")]
-		PaymentReceived,
-		[EnumMember(Value = "Payment Failed")]
-		PaymentFailed,
+		[EnumMember(Value = "Out for delivery")]
+		OutForDelivery,
 		[EnumMember(Value = "Delivered")]
-		Delivered
+		Delivered,
+		[EnumMember(Value = "Cancelled")]
+		Cancelled
 	}
 }

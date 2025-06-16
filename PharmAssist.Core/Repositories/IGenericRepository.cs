@@ -8,6 +8,7 @@ namespace PharmAssist.Core.Repositories
 	{
 		#region Without Specifications
 		Task<IReadOnlyList<T>> GetAllAsync();
+		Task<IReadOnlyList<T>> ListAllAsync();
 		Task<T> GetByIdAsync(int id);
 		#endregion
 
